@@ -1,0 +1,9 @@
+pandas
+numpy
+requests
+scikit-learn
+joblib
+PyYAML
+python-dotenv
+lightgbm
+urllib3<2

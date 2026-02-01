@@ -1,0 +1,1305 @@
+2026-02-01 03:16:41 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=5min)
+2026-02-01 03:16:42 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=5min)
+2026-02-01 03:16:42 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=5min)
+2026-02-01 03:17:45 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=5min)
+2026-02-01 03:17:46 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=5min)
+2026-02-01 03:17:46 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=5min)
+2026-02-01 03:20:02 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=5min)
+2026-02-01 03:20:04 | INFO | fxbot | Fetched 5000 candles for EUR/USD (latest=2026-02-01 13:15:00)
+2026-02-01 03:20:06 | INFO | fxbot | Fetched 5000 candles for USD/JPY (latest=2026-02-01 13:15:00)
+2026-02-01 03:20:07 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=5min)
+2026-02-01 03:20:09 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=5min)
+2026-02-01 03:38:20 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=5min)
+2026-02-01 03:38:27 | INFO | fxbot | Model saved: model/artifacts/gb_model.joblib
+2026-02-01 03:38:27 | INFO | fxbot | Meta: {'model_type': 'lgbm', 'calibrated': True, 'rows': 5716, 'auc': 0.5144146126760563, 'features': ['r1', 'r3', 'r6', 'r12', 'ema_diff', 'vol20', 'atr14', 'atr_norm', 'trend_strength', 'pair_id'], 'label_threshold': 0.00012, 'drop_middle': True}
+2026-02-01 03:43:19 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=5min)
+2026-02-01 03:43:20 | INFO | fxbot | Starting paper live loop (sleep=240s, max_open=5, risk_per_trade=2.00%, daily_max_loss=3.00%)
+2026-02-01 03:43:22 | INFO | fxbot | Fetched candles pair=EUR/USD rows=800 latest_ts=2026-02-01 13:40:00
+2026-02-01 03:43:23 | INFO | fxbot | Fetched candles pair=USD/JPY rows=800 latest_ts=2026-02-01 13:40:00
+2026-02-01 03:43:23 | INFO | fxbot | Initialized trading day=2026-02-01 equity=10000.00
+2026-02-01 03:43:23 | DEBUG | fxbot | Signal pair=EUR/USD ts=2026-02-01 13:40:00 p_up=0.4881 ema_diff=0.000013 atr14=0.000061 close=1.18549
+2026-02-01 03:43:23 | DEBUG | fxbot | Signal pair=USD/JPY ts=2026-02-01 13:40:00 p_up=0.4967 ema_diff=0.000127 atr14=0.009224 close=154.76720
+2026-02-01 03:43:23 | INFO | fxbot | Status equity=10000.00 day_dd=0.00% open=0 halted=False
+2026-02-01 03:47:24 | INFO | fxbot | Fetched candles pair=EUR/USD rows=800 latest_ts=2026-02-01 13:45:00
+2026-02-01 03:47:25 | INFO | fxbot | Fetched candles pair=USD/JPY rows=800 latest_ts=2026-02-01 13:45:00
+2026-02-01 03:47:26 | DEBUG | fxbot | Signal pair=EUR/USD ts=2026-02-01 13:45:00 p_up=0.4881 ema_diff=0.000011 atr14=0.000064 close=1.18550
+2026-02-01 03:47:26 | DEBUG | fxbot | Signal pair=USD/JPY ts=2026-02-01 13:45:00 p_up=0.5219 ema_diff=0.000119 atr14=0.011947 close=154.74644
+2026-02-01 03:47:26 | INFO | fxbot | Status equity=10000.00 day_dd=0.00% open=0 halted=False
+2026-02-01 03:51:27 | INFO | fxbot | Fetched candles pair=EUR/USD rows=800 latest_ts=2026-02-01 13:50:00
+2026-02-01 03:51:28 | INFO | fxbot | Fetched candles pair=USD/JPY rows=800 latest_ts=2026-02-01 13:50:00
+2026-02-01 03:51:28 | DEBUG | fxbot | Signal pair=EUR/USD ts=2026-02-01 13:50:00 p_up=0.4881 ema_diff=0.000012 atr14=0.000062 close=1.18551
+2026-02-01 03:51:28 | DEBUG | fxbot | Signal pair=USD/JPY ts=2026-02-01 13:50:00 p_up=0.4967 ema_diff=0.000111 atr14=0.010924 close=154.74629
+2026-02-01 03:51:28 | INFO | fxbot | Status equity=10000.00 day_dd=0.00% open=0 halted=False
+2026-02-01 03:55:29 | INFO | fxbot | Fetched candles pair=EUR/USD rows=800 latest_ts=2026-02-01 13:50:00
+2026-02-01 03:55:30 | INFO | fxbot | Fetched candles pair=USD/JPY rows=800 latest_ts=2026-02-01 13:50:00
+2026-02-01 03:55:30 | DEBUG | fxbot | Signal pair=EUR/USD ts=2026-02-01 13:50:00 p_up=0.4881 ema_diff=0.000013 atr14=0.000063 close=1.18553
+2026-02-01 03:55:30 | DEBUG | fxbot | Signal pair=USD/JPY ts=2026-02-01 13:50:00 p_up=0.4967 ema_diff=0.000110 atr14=0.011053 close=154.74370
+2026-02-01 03:55:30 | INFO | fxbot | Status equity=10000.00 day_dd=0.00% open=0 halted=False
+2026-02-01 03:59:31 | INFO | fxbot | Fetched candles pair=EUR/USD rows=800 latest_ts=2026-02-01 13:55:00
+2026-02-01 03:59:32 | INFO | fxbot | Fetched candles pair=USD/JPY rows=800 latest_ts=2026-02-01 13:55:00
+2026-02-01 03:59:32 | DEBUG | fxbot | Signal pair=EUR/USD ts=2026-02-01 13:55:00 p_up=0.4881 ema_diff=0.000012 atr14=0.000063 close=1.18553
+2026-02-01 03:59:32 | DEBUG | fxbot | Signal pair=USD/JPY ts=2026-02-01 13:55:00 p_up=0.4967 ema_diff=0.000102 atr14=0.010544 close=154.74216
+2026-02-01 03:59:32 | INFO | fxbot | Status equity=10000.00 day_dd=0.00% open=0 halted=False
+2026-02-01 04:03:33 | INFO | fxbot | Fetched candles pair=EUR/USD rows=800 latest_ts=2026-02-01 14:00:00
+2026-02-01 04:03:34 | INFO | fxbot | Fetched candles pair=USD/JPY rows=800 latest_ts=2026-02-01 14:00:00
+2026-02-01 04:03:34 | DEBUG | fxbot | Signal pair=EUR/USD ts=2026-02-01 14:00:00 p_up=0.4881 ema_diff=0.000010 atr14=0.000061 close=1.18551
+2026-02-01 04:03:34 | DEBUG | fxbot | Signal pair=USD/JPY ts=2026-02-01 14:00:00 p_up=0.4967 ema_diff=0.000097 atr14=0.010616 close=154.74375
+2026-02-01 04:03:34 | INFO | fxbot | Status equity=10000.00 day_dd=0.00% open=0 halted=False
+2026-02-01 04:07:36 | INFO | fxbot | Fetched candles pair=EUR/USD rows=800 latest_ts=2026-02-01 14:05:00
+2026-02-01 04:07:37 | INFO | fxbot | Fetched candles pair=USD/JPY rows=800 latest_ts=2026-02-01 14:05:00
+2026-02-01 04:07:37 | DEBUG | fxbot | Signal pair=EUR/USD ts=2026-02-01 14:05:00 p_up=0.4881 ema_diff=0.000008 atr14=0.000059 close=1.18550
+2026-02-01 04:07:37 | DEBUG | fxbot | Signal pair=USD/JPY ts=2026-02-01 14:05:00 p_up=0.4967 ema_diff=0.000092 atr14=0.010429 close=154.74633
+2026-02-01 04:07:37 | INFO | fxbot | Status equity=10000.00 day_dd=0.00% open=0 halted=False
+2026-02-01 04:09:40 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 04:09:42 | INFO | fxbot | Fetched 5000 candles for EUR/USD (latest=2026-02-01 14:00:00)
+2026-02-01 04:09:43 | INFO | fxbot | Fetched 5000 candles for USD/JPY (latest=2026-02-01 14:00:00)
+2026-02-01 04:10:11 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 04:13:00 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 04:17:22 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 04:17:22 | INFO | fxbot | Train set EUR/USD rows=5855 cutoff=2026-01-25T03:17:22.802246
+2026-02-01 04:17:22 | INFO | fxbot | Train set USD/JPY rows=5855 cutoff=2026-01-25T03:17:22.802246
+2026-02-01 04:17:29 | INFO | fxbot | Model saved: model/artifacts/gb_model_upto_lastweek.joblib
+2026-02-01 04:17:29 | INFO | fxbot | Meta: {'model_type': 'lgbm', 'calibrated': True, 'rows': 7452, 'auc': 0.5139482236754497, 'features': ['r1', 'r3', 'r6', 'r12', 'ema_diff', 'vol20', 'atr14', 'atr_norm', 'trend_strength', 'pair_id'], 'label_threshold': 0.00012, 'drop_middle': True}
+2026-02-01 04:17:30 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 04:17:30 | INFO | fxbot | Train set EUR/USD rows=5855 cutoff=2026-01-25T03:17:30.286370
+2026-02-01 04:17:30 | INFO | fxbot | Train set USD/JPY rows=5855 cutoff=2026-01-25T03:17:30.286370
+2026-02-01 04:17:36 | INFO | fxbot | Model saved: model/artifacts/gb_model_upto_lastweek.joblib
+2026-02-01 04:17:36 | INFO | fxbot | Meta: {'model_type': 'lgbm', 'calibrated': True, 'rows': 7452, 'auc': 0.5139482236754497, 'features': ['r1', 'r3', 'r6', 'r12', 'ema_diff', 'vol20', 'atr14', 'atr_norm', 'trend_strength', 'pair_id'], 'label_threshold': 0.00012, 'drop_middle': True}
+2026-02-01 04:18:02 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 04:19:29 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 04:19:30 | INFO | fxbot | Replay set EUR/USD rows=2145 from=2026-01-25T03:19:29.554047
+2026-02-01 04:19:30 | INFO | fxbot | Replay set USD/JPY rows=2145 from=2026-01-25T03:19:29.554047
+2026-02-01 04:20:44 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 04:20:45 | INFO | fxbot | Replay set EUR/USD rows=2144 from=2026-01-25T03:20:44.762650
+2026-02-01 04:20:45 | INFO | fxbot | Replay set USD/JPY rows=2144 from=2026-01-25T03:20:44.762650
+2026-02-01 04:27:01 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 04:27:02 | INFO | fxbot | Replay set EUR/USD rows=2143 from=2026-01-25T03:27:01.793663
+2026-02-01 04:27:02 | INFO | fxbot | Replay set USD/JPY rows=2143 from=2026-01-25T03:27:01.793663
+2026-02-01 04:41:53 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 04:41:54 | INFO | fxbot | Replay set EUR/USD rows=2140 from=2026-01-25T03:41:53.197311
+2026-02-01 04:41:54 | INFO | fxbot | Replay set USD/JPY rows=2140 from=2026-01-25T03:41:53.197311
+2026-02-01 04:52:34 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 04:52:34 | INFO | fxbot | Replay set EUR/USD rows=2138 from=2026-01-25T03:52:34.057070
+2026-02-01 04:52:34 | INFO | fxbot | Replay set USD/JPY rows=2138 from=2026-01-25T03:52:34.057070
+2026-02-01 04:52:34 | INFO | fxbot | Starting replay (model=model/artifacts/gb_model_upto_lastweek.joblib, days=7, total_bars=2138, pairs=['EUR/USD', 'USD/JPY'])
+2026-02-01 04:52:34 | INFO | fxbot | Initialized replay day=2026-01-25 equity=10000.00
+2026-02-01 04:52:35 | INFO | fxbot | OPEN trade_id=1 pair=USD/JPY p_up=0.600 entry=156.08585 sl=155.87174 tp=156.34278 units=934.11 equity=10000.00
+2026-02-01 04:52:35 | INFO | fxbot | OPEN trade_id=2 pair=USD/JPY p_up=0.600 entry=156.01340 sl=155.81069 tp=156.25665 units=986.63 equity=10000.00
+2026-02-01 04:52:36 | INFO | fxbot | CLOSE trade_id=1 pair=USD/JPY reason=TIME exit=156.01606 pnl=-65.19 equity=9934.81
+2026-02-01 04:52:36 | INFO | fxbot | CLOSE trade_id=2 pair=USD/JPY reason=TIME exit=155.95508 pnl=-57.54 equity=9877.27
+2026-02-01 04:52:38 | INFO | fxbot | New day rollover 2026-01-25 -> 2026-01-26 (reset daily limits)
+2026-02-01 04:52:38 | INFO | fxbot | OPEN trade_id=3 pair=USD/JPY p_up=0.600 entry=155.81501 sl=155.63486 tp=156.03119 units=1096.56 equity=9877.27
+2026-02-01 04:52:38 | INFO | fxbot | CLOSE trade_id=3 pair=USD/JPY reason=TP exit=156.03119 pnl=237.05 equity=10114.32
+2026-02-01 04:52:38 | INFO | fxbot | OPEN trade_id=4 pair=USD/JPY p_up=0.600 entry=155.81501 sl=155.59543 tp=156.07851 units=921.22 equity=10114.32
+2026-02-01 04:52:38 | INFO | fxbot | CLOSE trade_id=4 pair=USD/JPY reason=SL exit=155.59543 pnl=-202.29 equity=9912.04
+2026-02-01 04:52:38 | INFO | fxbot | OPEN trade_id=5 pair=USD/JPY p_up=1.000 entry=155.56230 sl=155.28095 tp=155.89992 units=704.61 equity=9912.04
+2026-02-01 04:52:38 | INFO | fxbot | CLOSE trade_id=5 pair=USD/JPY reason=SL exit=155.28095 pnl=-198.24 equity=9713.80
+2026-02-01 04:52:39 | INFO | fxbot | OPEN trade_id=6 pair=EUR/USD p_up=0.600 entry=1.18649 sl=1.18469 tp=1.18865 units=108059.71 equity=9713.80
+2026-02-01 04:52:39 | INFO | fxbot | CLOSE trade_id=6 pair=EUR/USD reason=TP exit=1.18865 pnl=233.13 equity=9946.93
+2026-02-01 04:52:39 | INFO | fxbot | OPEN trade_id=7 pair=EUR/USD p_up=0.600 entry=1.18649 sl=1.18448 tp=1.18890 units=99027.18 equity=9946.93
+2026-02-01 04:52:39 | INFO | fxbot | OPEN trade_id=8 pair=EUR/USD p_up=1.000 entry=1.18650 sl=1.18441 tp=1.18901 units=95218.45 equity=9946.93
+2026-02-01 04:52:39 | INFO | fxbot | CLOSE trade_id=7 pair=EUR/USD reason=TIME exit=1.18597 pnl=-51.49 equity=9895.43
+2026-02-01 04:52:39 | INFO | fxbot | CLOSE trade_id=8 pair=EUR/USD reason=TIME exit=1.18541 pnl=-103.79 equity=9791.64
+2026-02-01 04:52:41 | INFO | fxbot | New day rollover 2026-01-26 -> 2026-01-27 (reset daily limits)
+2026-02-01 04:52:45 | INFO | fxbot | New day rollover 2026-01-27 -> 2026-01-28 (reset daily limits)
+2026-02-01 04:52:46 | INFO | fxbot | OPEN trade_id=9 pair=EUR/USD p_up=0.600 entry=1.19513 sl=1.19359 tp=1.19698 units=127016.93 equity=9791.64
+2026-02-01 04:52:46 | INFO | fxbot | CLOSE trade_id=9 pair=EUR/USD reason=TIME exit=1.19637 pnl=157.50 equity=9949.15
+2026-02-01 04:52:46 | INFO | fxbot | OPEN trade_id=10 pair=EUR/USD p_up=1.000 entry=1.19615 sl=1.19499 tp=1.19754 units=172119.91 equity=9949.15
+2026-02-01 04:52:46 | INFO | fxbot | CLOSE trade_id=10 pair=EUR/USD reason=TP exit=1.19754 pnl=238.78 equity=10187.93
+2026-02-01 04:52:49 | INFO | fxbot | New day rollover 2026-01-28 -> 2026-01-29 (reset daily limits)
+2026-02-01 04:52:50 | INFO | fxbot | OPEN trade_id=11 pair=USD/JPY p_up=0.600 entry=153.31516 sl=152.92879 tp=153.77880 units=527.37 equity=10187.93
+2026-02-01 04:52:50 | INFO | fxbot | CLOSE trade_id=11 pair=USD/JPY reason=TIME exit=153.64264 pnl=172.70 equity=10360.63
+2026-02-01 04:52:50 | INFO | fxbot | OPEN trade_id=12 pair=USD/JPY p_up=0.600 entry=153.49186 sl=153.25384 tp=153.77749 units=870.55 equity=10360.63
+2026-02-01 04:52:50 | INFO | fxbot | OPEN trade_id=13 pair=USD/JPY p_up=1.000 entry=153.49186 sl=153.23528 tp=153.79975 units=807.60 equity=10360.63
+2026-02-01 04:52:50 | INFO | fxbot | CLOSE trade_id=12 pair=USD/JPY reason=TIME exit=153.41623 pnl=-65.84 equity=10294.79
+2026-02-01 04:52:50 | INFO | fxbot | CLOSE trade_id=13 pair=USD/JPY reason=TIME exit=153.41623 pnl=-61.08 equity=10233.71
+2026-02-01 04:52:53 | INFO | fxbot | New day rollover 2026-01-29 -> 2026-01-30 (reset daily limits)
+2026-02-01 04:52:58 | INFO | fxbot | New day rollover 2026-01-30 -> 2026-01-31 (reset daily limits)
+2026-02-01 04:52:58 | INFO | fxbot | OPEN trade_id=14 pair=USD/JPY p_up=0.600 entry=154.23182 sl=154.00464 tp=154.50443 units=900.95 equity=10233.71
+2026-02-01 04:52:58 | INFO | fxbot | CLOSE trade_id=14 pair=USD/JPY reason=TIME exit=154.34659 pnl=103.40 equity=10337.11
+2026-02-01 04:53:02 | INFO | fxbot | New day rollover 2026-01-31 -> 2026-02-01 (reset daily limits)
+2026-02-01 04:53:04 | INFO | fxbot | Replay done. equity=10337.11 opened=14 closed=14 open_now=0 halted=False
+2026-02-01 05:17:28 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 05:17:29 | INFO | fxbot | Replay set EUR/USD rows=2133 from=2026-01-25T04:17:28.765375
+2026-02-01 05:17:29 | INFO | fxbot | Replay set USD/JPY rows=2133 from=2026-01-25T04:17:28.765375
+2026-02-01 05:17:29 | INFO | fxbot | Starting replay (model=model/artifacts/gb_model_upto_lastweek.joblib, days=7, total_bars=2133, pairs=['EUR/USD', 'USD/JPY'])
+2026-02-01 05:17:29 | INFO | fxbot | Initialized replay day=2026-01-25 equity=10000.00
+2026-02-01 05:17:30 | INFO | fxbot | OPEN trade_id=1 pair=USD/JPY p_up=0.600 entry=156.08585 sl=155.87174 tp=156.34278 units=934.11 equity=10000.00
+2026-02-01 05:17:30 | INFO | fxbot | OPEN trade_id=2 pair=USD/JPY p_up=0.600 entry=156.01340 sl=155.81069 tp=156.25665 units=986.63 equity=10000.00
+2026-02-01 05:17:30 | INFO | fxbot | CLOSE trade_id=1 pair=USD/JPY reason=TIME exit=156.01606 pnl=-65.19 equity=9934.81
+2026-02-01 05:17:30 | INFO | fxbot | CLOSE trade_id=2 pair=USD/JPY reason=TIME exit=155.95508 pnl=-57.54 equity=9877.27
+2026-02-01 05:17:32 | INFO | fxbot | New day rollover 2026-01-25 -> 2026-01-26 (reset daily limits)
+2026-02-01 05:17:33 | INFO | fxbot | OPEN trade_id=3 pair=USD/JPY p_up=0.600 entry=155.81501 sl=155.63486 tp=156.03119 units=1096.56 equity=9877.27
+2026-02-01 05:17:33 | INFO | fxbot | CLOSE trade_id=3 pair=USD/JPY reason=TP exit=156.03119 pnl=237.05 equity=10114.32
+2026-02-01 05:17:33 | INFO | fxbot | OPEN trade_id=4 pair=USD/JPY p_up=0.600 entry=155.81501 sl=155.59543 tp=156.07851 units=921.22 equity=10114.32
+2026-02-01 05:17:33 | INFO | fxbot | CLOSE trade_id=4 pair=USD/JPY reason=SL exit=155.59543 pnl=-202.29 equity=9912.04
+2026-02-01 05:17:33 | INFO | fxbot | OPEN trade_id=5 pair=USD/JPY p_up=1.000 entry=155.56230 sl=155.28095 tp=155.89992 units=704.61 equity=9912.04
+2026-02-01 05:17:33 | INFO | fxbot | CLOSE trade_id=5 pair=USD/JPY reason=SL exit=155.28095 pnl=-198.24 equity=9713.80
+2026-02-01 05:17:34 | INFO | fxbot | OPEN trade_id=6 pair=EUR/USD p_up=0.600 entry=1.18649 sl=1.18469 tp=1.18865 units=108059.71 equity=9713.80
+2026-02-01 05:17:34 | INFO | fxbot | CLOSE trade_id=6 pair=EUR/USD reason=TP exit=1.18865 pnl=233.13 equity=9946.93
+2026-02-01 05:17:34 | INFO | fxbot | OPEN trade_id=7 pair=EUR/USD p_up=0.600 entry=1.18649 sl=1.18448 tp=1.18890 units=99027.18 equity=9946.93
+2026-02-01 05:17:34 | INFO | fxbot | OPEN trade_id=8 pair=EUR/USD p_up=1.000 entry=1.18650 sl=1.18441 tp=1.18901 units=95218.45 equity=9946.93
+2026-02-01 05:17:34 | INFO | fxbot | CLOSE trade_id=7 pair=EUR/USD reason=TIME exit=1.18597 pnl=-51.49 equity=9895.43
+2026-02-01 05:17:34 | INFO | fxbot | CLOSE trade_id=8 pair=EUR/USD reason=TIME exit=1.18541 pnl=-103.79 equity=9791.64
+2026-02-01 05:17:36 | INFO | fxbot | New day rollover 2026-01-26 -> 2026-01-27 (reset daily limits)
+2026-02-01 05:17:40 | INFO | fxbot | New day rollover 2026-01-27 -> 2026-01-28 (reset daily limits)
+2026-02-01 05:17:40 | INFO | fxbot | OPEN trade_id=9 pair=EUR/USD p_up=0.600 entry=1.19513 sl=1.19359 tp=1.19698 units=127016.93 equity=9791.64
+2026-02-01 05:17:40 | INFO | fxbot | CLOSE trade_id=9 pair=EUR/USD reason=TIME exit=1.19637 pnl=157.50 equity=9949.15
+2026-02-01 05:17:41 | INFO | fxbot | OPEN trade_id=10 pair=EUR/USD p_up=1.000 entry=1.19615 sl=1.19499 tp=1.19754 units=172119.91 equity=9949.15
+2026-02-01 05:17:41 | INFO | fxbot | CLOSE trade_id=10 pair=EUR/USD reason=TP exit=1.19754 pnl=238.78 equity=10187.93
+2026-02-01 05:17:44 | INFO | fxbot | New day rollover 2026-01-28 -> 2026-01-29 (reset daily limits)
+2026-02-01 05:17:44 | INFO | fxbot | OPEN trade_id=11 pair=USD/JPY p_up=0.600 entry=153.31516 sl=152.92879 tp=153.77880 units=527.37 equity=10187.93
+2026-02-01 05:17:44 | INFO | fxbot | CLOSE trade_id=11 pair=USD/JPY reason=TIME exit=153.64264 pnl=172.70 equity=10360.63
+2026-02-01 05:17:45 | INFO | fxbot | OPEN trade_id=12 pair=USD/JPY p_up=0.600 entry=153.49186 sl=153.25384 tp=153.77749 units=870.55 equity=10360.63
+2026-02-01 05:17:45 | INFO | fxbot | OPEN trade_id=13 pair=USD/JPY p_up=1.000 entry=153.49186 sl=153.23528 tp=153.79975 units=807.60 equity=10360.63
+2026-02-01 05:17:45 | INFO | fxbot | CLOSE trade_id=12 pair=USD/JPY reason=TIME exit=153.41623 pnl=-65.84 equity=10294.79
+2026-02-01 05:17:45 | INFO | fxbot | CLOSE trade_id=13 pair=USD/JPY reason=TIME exit=153.41623 pnl=-61.08 equity=10233.71
+2026-02-01 05:17:48 | INFO | fxbot | New day rollover 2026-01-29 -> 2026-01-30 (reset daily limits)
+2026-02-01 05:17:53 | INFO | fxbot | New day rollover 2026-01-30 -> 2026-01-31 (reset daily limits)
+2026-02-01 05:17:53 | INFO | fxbot | OPEN trade_id=14 pair=USD/JPY p_up=0.600 entry=154.23182 sl=154.00464 tp=154.50443 units=900.95 equity=10233.71
+2026-02-01 05:17:53 | INFO | fxbot | CLOSE trade_id=14 pair=USD/JPY reason=TIME exit=154.34659 pnl=103.40 equity=10337.11
+2026-02-01 05:17:57 | INFO | fxbot | New day rollover 2026-01-31 -> 2026-02-01 (reset daily limits)
+2026-02-01 05:17:59 | INFO | fxbot | Replay done. equity=10337.11 opened=14 closed=14 open_now=0 halted=False
+2026-02-01 05:20:05 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 05:20:05 | INFO | fxbot | Replay set EUR/USD rows=2132 from=2026-01-25T04:20:05.200619
+2026-02-01 05:20:05 | INFO | fxbot | Replay set USD/JPY rows=2132 from=2026-01-25T04:20:05.200619
+2026-02-01 05:20:06 | INFO | fxbot | Starting replay (model=model/artifacts/gb_model_upto_lastweek.joblib, days=7, total_bars=2132, pairs=['EUR/USD', 'USD/JPY'])
+2026-02-01 05:20:06 | INFO | fxbot | Initialized replay day=2026-01-25 equity=10000.00
+2026-02-01 05:20:07 | INFO | fxbot | OPEN trade_id=15 pair=USD/JPY p_up=0.600 entry=156.08585 sl=155.87174 tp=156.34278 units=934.11 equity=10000.00
+2026-02-01 05:20:07 | INFO | fxbot | OPEN trade_id=16 pair=USD/JPY p_up=0.600 entry=156.01340 sl=155.81069 tp=156.25665 units=986.63 equity=10000.00
+2026-02-01 05:20:07 | INFO | fxbot | CLOSE trade_id=15 pair=USD/JPY reason=TIME exit=156.01606 pnl=-65.19 equity=9934.81
+2026-02-01 05:20:07 | INFO | fxbot | CLOSE trade_id=16 pair=USD/JPY reason=TIME exit=155.95508 pnl=-57.54 equity=9877.27
+2026-02-01 05:20:09 | INFO | fxbot | New day rollover 2026-01-25 -> 2026-01-26 (reset daily limits)
+2026-02-01 05:20:09 | INFO | fxbot | OPEN trade_id=17 pair=USD/JPY p_up=0.600 entry=155.81501 sl=155.63486 tp=156.03119 units=1096.56 equity=9877.27
+2026-02-01 05:20:09 | INFO | fxbot | CLOSE trade_id=17 pair=USD/JPY reason=TP exit=156.03119 pnl=237.05 equity=10114.32
+2026-02-01 05:20:09 | INFO | fxbot | OPEN trade_id=18 pair=USD/JPY p_up=0.600 entry=155.81501 sl=155.59543 tp=156.07851 units=921.22 equity=10114.32
+2026-02-01 05:20:09 | INFO | fxbot | CLOSE trade_id=18 pair=USD/JPY reason=SL exit=155.59543 pnl=-202.29 equity=9912.04
+2026-02-01 05:20:09 | INFO | fxbot | OPEN trade_id=19 pair=USD/JPY p_up=1.000 entry=155.56230 sl=155.28095 tp=155.89992 units=704.61 equity=9912.04
+2026-02-01 05:20:09 | INFO | fxbot | CLOSE trade_id=19 pair=USD/JPY reason=SL exit=155.28095 pnl=-198.24 equity=9713.80
+2026-02-01 05:20:10 | INFO | fxbot | OPEN trade_id=20 pair=EUR/USD p_up=0.600 entry=1.18649 sl=1.18469 tp=1.18865 units=108059.71 equity=9713.80
+2026-02-01 05:20:10 | INFO | fxbot | CLOSE trade_id=20 pair=EUR/USD reason=TP exit=1.18865 pnl=233.13 equity=9946.93
+2026-02-01 05:20:10 | INFO | fxbot | OPEN trade_id=21 pair=EUR/USD p_up=0.600 entry=1.18649 sl=1.18448 tp=1.18890 units=99027.18 equity=9946.93
+2026-02-01 05:20:10 | INFO | fxbot | OPEN trade_id=22 pair=EUR/USD p_up=1.000 entry=1.18650 sl=1.18441 tp=1.18901 units=95218.45 equity=9946.93
+2026-02-01 05:20:10 | INFO | fxbot | CLOSE trade_id=21 pair=EUR/USD reason=TIME exit=1.18597 pnl=-51.49 equity=9895.43
+2026-02-01 05:20:10 | INFO | fxbot | CLOSE trade_id=22 pair=EUR/USD reason=TIME exit=1.18541 pnl=-103.79 equity=9791.64
+2026-02-01 05:20:13 | INFO | fxbot | New day rollover 2026-01-26 -> 2026-01-27 (reset daily limits)
+2026-02-01 05:20:16 | INFO | fxbot | New day rollover 2026-01-27 -> 2026-01-28 (reset daily limits)
+2026-02-01 05:20:17 | INFO | fxbot | OPEN trade_id=23 pair=EUR/USD p_up=0.600 entry=1.19513 sl=1.19359 tp=1.19698 units=127016.93 equity=9791.64
+2026-02-01 05:20:17 | INFO | fxbot | CLOSE trade_id=23 pair=EUR/USD reason=TIME exit=1.19637 pnl=157.50 equity=9949.15
+2026-02-01 05:20:17 | INFO | fxbot | OPEN trade_id=24 pair=EUR/USD p_up=1.000 entry=1.19615 sl=1.19499 tp=1.19754 units=172119.91 equity=9949.15
+2026-02-01 05:20:17 | INFO | fxbot | CLOSE trade_id=24 pair=EUR/USD reason=TP exit=1.19754 pnl=238.78 equity=10187.93
+2026-02-01 05:20:20 | INFO | fxbot | New day rollover 2026-01-28 -> 2026-01-29 (reset daily limits)
+2026-02-01 05:20:21 | INFO | fxbot | OPEN trade_id=25 pair=USD/JPY p_up=0.600 entry=153.31516 sl=152.92879 tp=153.77880 units=527.37 equity=10187.93
+2026-02-01 05:20:21 | INFO | fxbot | CLOSE trade_id=25 pair=USD/JPY reason=TIME exit=153.64264 pnl=172.70 equity=10360.63
+2026-02-01 05:20:21 | INFO | fxbot | OPEN trade_id=26 pair=USD/JPY p_up=0.600 entry=153.49186 sl=153.25384 tp=153.77749 units=870.55 equity=10360.63
+2026-02-01 05:20:22 | INFO | fxbot | OPEN trade_id=27 pair=USD/JPY p_up=1.000 entry=153.49186 sl=153.23528 tp=153.79975 units=807.60 equity=10360.63
+2026-02-01 05:20:22 | INFO | fxbot | CLOSE trade_id=26 pair=USD/JPY reason=TIME exit=153.41623 pnl=-65.84 equity=10294.79
+2026-02-01 05:20:22 | INFO | fxbot | CLOSE trade_id=27 pair=USD/JPY reason=TIME exit=153.41623 pnl=-61.08 equity=10233.71
+2026-02-01 05:20:24 | INFO | fxbot | New day rollover 2026-01-29 -> 2026-01-30 (reset daily limits)
+2026-02-01 05:20:29 | INFO | fxbot | New day rollover 2026-01-30 -> 2026-01-31 (reset daily limits)
+2026-02-01 05:20:29 | INFO | fxbot | OPEN trade_id=28 pair=USD/JPY p_up=0.600 entry=154.23182 sl=154.00464 tp=154.50443 units=900.95 equity=10233.71
+2026-02-01 05:20:29 | INFO | fxbot | CLOSE trade_id=28 pair=USD/JPY reason=TIME exit=154.34659 pnl=103.40 equity=10337.11
+2026-02-01 05:20:33 | INFO | fxbot | New day rollover 2026-01-31 -> 2026-02-01 (reset daily limits)
+2026-02-01 05:20:36 | INFO | fxbot | Replay done. equity=10337.11 opened=14 closed=14 open_now=0 halted=False
+2026-02-01 05:20:41 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 05:20:42 | INFO | fxbot | Replay set EUR/USD rows=2132 from=2026-01-25T04:20:41.890591
+2026-02-01 05:20:42 | INFO | fxbot | Replay set USD/JPY rows=2132 from=2026-01-25T04:20:41.890591
+2026-02-01 05:20:42 | INFO | fxbot | Starting replay (model=model/artifacts/gb_model_upto_lastweek.joblib, days=7, total_bars=2132, pairs=['EUR/USD', 'USD/JPY'])
+2026-02-01 05:20:42 | INFO | fxbot | Initialized replay day=2026-01-25 equity=10000.00
+2026-02-01 05:20:43 | INFO | fxbot | OPEN trade_id=29 pair=USD/JPY p_up=0.600 entry=156.08585 sl=155.87174 tp=156.34278 units=934.11 equity=10000.00
+2026-02-01 05:20:43 | INFO | fxbot | OPEN trade_id=30 pair=USD/JPY p_up=0.600 entry=156.01340 sl=155.81069 tp=156.25665 units=986.63 equity=10000.00
+2026-02-01 05:20:43 | INFO | fxbot | CLOSE trade_id=29 pair=USD/JPY reason=TIME exit=156.01606 pnl=-65.19 equity=9934.81
+2026-02-01 05:20:43 | INFO | fxbot | CLOSE trade_id=30 pair=USD/JPY reason=TIME exit=155.95508 pnl=-57.54 equity=9877.27
+2026-02-01 05:20:45 | INFO | fxbot | New day rollover 2026-01-25 -> 2026-01-26 (reset daily limits)
+2026-02-01 05:20:46 | INFO | fxbot | OPEN trade_id=31 pair=USD/JPY p_up=0.600 entry=155.81501 sl=155.63486 tp=156.03119 units=1096.56 equity=9877.27
+2026-02-01 05:20:46 | INFO | fxbot | CLOSE trade_id=31 pair=USD/JPY reason=TP exit=156.03119 pnl=237.05 equity=10114.32
+2026-02-01 05:20:46 | INFO | fxbot | OPEN trade_id=32 pair=USD/JPY p_up=0.600 entry=155.81501 sl=155.59543 tp=156.07851 units=921.22 equity=10114.32
+2026-02-01 05:20:46 | INFO | fxbot | CLOSE trade_id=32 pair=USD/JPY reason=SL exit=155.59543 pnl=-202.29 equity=9912.04
+2026-02-01 05:20:46 | INFO | fxbot | OPEN trade_id=33 pair=USD/JPY p_up=1.000 entry=155.56230 sl=155.28095 tp=155.89992 units=704.61 equity=9912.04
+2026-02-01 05:20:46 | INFO | fxbot | CLOSE trade_id=33 pair=USD/JPY reason=SL exit=155.28095 pnl=-198.24 equity=9713.80
+2026-02-01 05:20:47 | INFO | fxbot | OPEN trade_id=34 pair=EUR/USD p_up=0.600 entry=1.18649 sl=1.18469 tp=1.18865 units=108059.71 equity=9713.80
+2026-02-01 05:20:47 | INFO | fxbot | CLOSE trade_id=34 pair=EUR/USD reason=TP exit=1.18865 pnl=233.13 equity=9946.93
+2026-02-01 05:20:47 | INFO | fxbot | OPEN trade_id=35 pair=EUR/USD p_up=0.600 entry=1.18649 sl=1.18448 tp=1.18890 units=99027.18 equity=9946.93
+2026-02-01 05:20:47 | INFO | fxbot | OPEN trade_id=36 pair=EUR/USD p_up=1.000 entry=1.18650 sl=1.18441 tp=1.18901 units=95218.45 equity=9946.93
+2026-02-01 05:20:47 | INFO | fxbot | CLOSE trade_id=35 pair=EUR/USD reason=TIME exit=1.18597 pnl=-51.49 equity=9895.43
+2026-02-01 05:20:47 | INFO | fxbot | CLOSE trade_id=36 pair=EUR/USD reason=TIME exit=1.18541 pnl=-103.79 equity=9791.64
+2026-02-01 05:20:49 | INFO | fxbot | New day rollover 2026-01-26 -> 2026-01-27 (reset daily limits)
+2026-02-01 05:20:53 | INFO | fxbot | New day rollover 2026-01-27 -> 2026-01-28 (reset daily limits)
+2026-02-01 05:20:53 | INFO | fxbot | OPEN trade_id=37 pair=EUR/USD p_up=0.600 entry=1.19513 sl=1.19359 tp=1.19698 units=127016.93 equity=9791.64
+2026-02-01 05:20:54 | INFO | fxbot | CLOSE trade_id=37 pair=EUR/USD reason=TIME exit=1.19637 pnl=157.50 equity=9949.15
+2026-02-01 05:20:54 | INFO | fxbot | OPEN trade_id=38 pair=EUR/USD p_up=1.000 entry=1.19615 sl=1.19499 tp=1.19754 units=172119.91 equity=9949.15
+2026-02-01 05:20:54 | INFO | fxbot | CLOSE trade_id=38 pair=EUR/USD reason=TP exit=1.19754 pnl=238.78 equity=10187.93
+2026-02-01 05:20:57 | INFO | fxbot | New day rollover 2026-01-28 -> 2026-01-29 (reset daily limits)
+2026-02-01 05:20:57 | INFO | fxbot | OPEN trade_id=39 pair=USD/JPY p_up=0.600 entry=153.31516 sl=152.92879 tp=153.77880 units=527.37 equity=10187.93
+2026-02-01 05:20:58 | INFO | fxbot | CLOSE trade_id=39 pair=USD/JPY reason=TIME exit=153.64264 pnl=172.70 equity=10360.63
+2026-02-01 05:20:58 | INFO | fxbot | OPEN trade_id=40 pair=USD/JPY p_up=0.600 entry=153.49186 sl=153.25384 tp=153.77749 units=870.55 equity=10360.63
+2026-02-01 05:20:58 | INFO | fxbot | OPEN trade_id=41 pair=USD/JPY p_up=1.000 entry=153.49186 sl=153.23528 tp=153.79975 units=807.60 equity=10360.63
+2026-02-01 05:20:58 | INFO | fxbot | CLOSE trade_id=40 pair=USD/JPY reason=TIME exit=153.41623 pnl=-65.84 equity=10294.79
+2026-02-01 05:20:58 | INFO | fxbot | CLOSE trade_id=41 pair=USD/JPY reason=TIME exit=153.41623 pnl=-61.08 equity=10233.71
+2026-02-01 05:21:01 | INFO | fxbot | New day rollover 2026-01-29 -> 2026-01-30 (reset daily limits)
+2026-02-01 05:21:05 | INFO | fxbot | New day rollover 2026-01-30 -> 2026-01-31 (reset daily limits)
+2026-02-01 05:21:06 | INFO | fxbot | OPEN trade_id=42 pair=USD/JPY p_up=0.600 entry=154.23182 sl=154.00464 tp=154.50443 units=900.95 equity=10233.71
+2026-02-01 05:21:06 | INFO | fxbot | CLOSE trade_id=42 pair=USD/JPY reason=TIME exit=154.34659 pnl=103.40 equity=10337.11
+2026-02-01 05:21:09 | INFO | fxbot | New day rollover 2026-01-31 -> 2026-02-01 (reset daily limits)
+2026-02-01 05:21:12 | INFO | fxbot | Replay done. equity=10337.11 opened=14 closed=14 open_now=0 halted=False
+2026-02-01 10:28:54 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 10:28:55 | INFO | fxbot | Replay set EUR/USD rows=2071 from=2026-01-25T09:28:54.308175
+2026-02-01 10:28:55 | INFO | fxbot | Replay set USD/JPY rows=2071 from=2026-01-25T09:28:54.308175
+2026-02-01 10:28:55 | INFO | fxbot | Starting replay (model=model/artifacts/gb_model_upto_lastweek.joblib, days=7, total_bars=2071, pairs=['EUR/USD', 'USD/JPY'])
+2026-02-01 10:28:55 | INFO | fxbot | Initialized replay day=2026-01-25 equity=10000.00
+2026-02-01 10:28:55 | INFO | fxbot | OPEN trade_id=43 pair=USD/JPY side=LONG p_up=0.600 entry=156.08585 sl=155.87174 tp=156.34278 units=934.11 equity=10000.00
+2026-02-01 10:28:55 | INFO | fxbot | OPEN trade_id=44 pair=USD/JPY side=LONG p_up=0.600 entry=156.01340 sl=155.81069 tp=156.25665 units=986.63 equity=10000.00
+2026-02-01 10:28:55 | INFO | fxbot | CLOSE trade_id=43 pair=USD/JPY side=LONG reason=TIME exit=156.01606 pnl=-65.19 equity=9934.81
+2026-02-01 10:28:55 | INFO | fxbot | CLOSE trade_id=44 pair=USD/JPY side=LONG reason=TIME exit=155.95508 pnl=-57.54 equity=9877.27
+2026-02-01 10:28:56 | INFO | fxbot | OPEN trade_id=45 pair=USD/JPY side=SHORT p_up=0.231 entry=155.79709 sl=155.84944 tp=155.73427 units=3773.78 equity=9877.27
+2026-02-01 10:28:56 | INFO | fxbot | CLOSE trade_id=45 pair=USD/JPY side=SHORT reason=TIME exit=155.77771 pnl=73.14 equity=9950.40
+2026-02-01 10:28:56 | INFO | fxbot | OPEN trade_id=46 pair=USD/JPY side=SHORT p_up=0.231 entry=155.73361 sl=155.75020 tp=155.71370 units=11994.89 equity=9950.40
+2026-02-01 10:28:56 | INFO | fxbot | OPEN trade_id=47 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72825 sl=155.74290 tp=155.71067 units=13585.49 equity=9950.40
+2026-02-01 10:28:56 | INFO | fxbot | CLOSE trade_id=46 pair=USD/JPY side=SHORT reason=TIME exit=155.72593 pnl=92.12 equity=10042.53
+2026-02-01 10:28:56 | INFO | fxbot | OPEN trade_id=48 pair=USD/JPY side=SHORT p_up=0.411 entry=155.72498 sl=155.73870 tp=155.70851 units=14637.34 equity=10042.53
+2026-02-01 10:28:56 | INFO | fxbot | OPEN trade_id=49 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72752 sl=155.74086 tp=155.71152 units=15059.49 equity=10042.53
+2026-02-01 10:28:56 | INFO | fxbot | CLOSE trade_id=47 pair=USD/JPY side=SHORT reason=TIME exit=155.72554 pnl=36.82 equity=10079.34
+2026-02-01 10:28:56 | INFO | fxbot | OPEN trade_id=50 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72752 sl=155.74053 tp=155.71191 units=15498.16 equity=10079.34
+2026-02-01 10:28:56 | INFO | fxbot | CLOSE trade_id=48 pair=USD/JPY side=SHORT reason=TIME exit=155.72394 pnl=15.22 equity=10094.56
+2026-02-01 10:28:56 | INFO | fxbot | CLOSE trade_id=49 pair=USD/JPY side=SHORT reason=TIME exit=155.72117 pnl=95.63 equity=10190.19
+2026-02-01 10:28:56 | INFO | fxbot | CLOSE trade_id=50 pair=USD/JPY side=SHORT reason=TIME exit=155.72117 pnl=98.41 equity=10288.61
+2026-02-01 10:28:56 | INFO | fxbot | OPEN trade_id=51 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72112 sl=155.73456 tp=155.70500 units=15315.31 equity=10288.61
+2026-02-01 10:28:56 | INFO | fxbot | OPEN trade_id=52 pair=USD/JPY side=SHORT p_up=0.016 entry=155.72292 sl=155.73621 tp=155.70697 units=15480.73 equity=10288.61
+2026-02-01 10:28:56 | INFO | fxbot | OPEN trade_id=53 pair=USD/JPY side=SHORT p_up=0.000 entry=155.72292 sl=155.73591 tp=155.70733 units=15840.81 equity=10288.61
+2026-02-01 10:28:56 | INFO | fxbot | CLOSE trade_id=51 pair=USD/JPY side=SHORT reason=TIME exit=155.72192 pnl=-12.25 equity=10276.35
+2026-02-01 10:28:56 | INFO | fxbot | CLOSE trade_id=52 pair=USD/JPY side=SHORT reason=TIME exit=155.71942 pnl=54.18 equity=10330.54
+2026-02-01 10:28:57 | INFO | fxbot | CLOSE trade_id=53 pair=USD/JPY side=SHORT reason=TIME exit=155.71942 pnl=55.44 equity=10385.98
+2026-02-01 10:28:57 | INFO | fxbot | OPEN trade_id=54 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72213 sl=155.73465 tp=155.70710 units=16588.65 equity=10385.98
+2026-02-01 10:28:57 | INFO | fxbot | OPEN trade_id=55 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72213 sl=155.73425 tp=155.70759 units=17140.09 equity=10385.98
+2026-02-01 10:28:57 | INFO | fxbot | CLOSE trade_id=54 pair=USD/JPY side=SHORT reason=TIME exit=155.71794 pnl=69.51 equity=10455.49
+2026-02-01 10:28:57 | INFO | fxbot | CLOSE trade_id=55 pair=USD/JPY side=SHORT reason=TIME exit=155.71794 pnl=71.82 equity=10527.30
+2026-02-01 10:28:57 | INFO | fxbot | OPEN trade_id=56 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72033 sl=155.73226 tp=155.70602 units=17655.85 equity=10527.30
+2026-02-01 10:28:57 | INFO | fxbot | OPEN trade_id=57 pair=USD/JPY side=SHORT p_up=0.134 entry=155.72073 sl=155.73289 tp=155.70614 units=17315.15 equity=10527.30
+2026-02-01 10:28:57 | INFO | fxbot | CLOSE trade_id=56 pair=USD/JPY side=SHORT reason=TP exit=155.70602 pnl=252.66 equity=10779.96
+2026-02-01 10:28:57 | INFO | fxbot | CLOSE trade_id=57 pair=USD/JPY side=SHORT reason=TP exit=155.70614 pnl=252.66 equity=11032.61
+2026-02-01 10:28:57 | INFO | fxbot | OPEN trade_id=58 pair=USD/JPY side=SHORT p_up=0.231 entry=155.71134 sl=155.72424 tp=155.69586 units=17101.99 equity=11032.61
+2026-02-01 10:28:57 | INFO | fxbot | OPEN trade_id=59 pair=USD/JPY side=SHORT p_up=0.231 entry=155.71284 sl=155.72474 tp=155.69855 units=18534.98 equity=11032.61
+2026-02-01 10:28:57 | INFO | fxbot | CLOSE trade_id=58 pair=USD/JPY side=SHORT reason=TIME exit=155.71124 pnl=1.71 equity=11034.32
+2026-02-01 10:28:57 | INFO | fxbot | OPEN trade_id=60 pair=USD/JPY side=SHORT p_up=0.400 entry=155.71028 sl=155.72245 tp=155.69567 units=18126.73 equity=11034.32
+2026-02-01 10:28:57 | INFO | fxbot | CLOSE trade_id=59 pair=USD/JPY side=SHORT reason=TIME exit=155.71028 pnl=47.45 equity=11081.77
+2026-02-01 10:28:57 | INFO | fxbot | OPEN trade_id=61 pair=USD/JPY side=SHORT p_up=0.231 entry=155.71275 sl=155.72517 tp=155.69784 units=17840.43 equity=11081.77
+2026-02-01 10:28:57 | INFO | fxbot | OPEN trade_id=62 pair=USD/JPY side=SHORT p_up=0.231 entry=155.71275 sl=155.72498 tp=155.69807 units=18116.99 equity=11081.77
+2026-02-01 10:28:57 | INFO | fxbot | CLOSE trade_id=60 pair=USD/JPY side=SHORT reason=TIME exit=155.71565 pnl=-97.34 equity=10984.43
+2026-02-01 10:28:57 | INFO | fxbot | OPEN trade_id=63 pair=USD/JPY side=SHORT p_up=0.404 entry=155.71325 sl=155.72566 tp=155.69835 units=17698.98 equity=10984.43
+2026-02-01 10:28:57 | INFO | fxbot | CLOSE trade_id=61 pair=USD/JPY side=SHORT reason=TIME exit=155.71346 pnl=-12.67 equity=10971.77
+2026-02-01 10:28:57 | INFO | fxbot | CLOSE trade_id=62 pair=USD/JPY side=SHORT reason=TIME exit=155.71346 pnl=-12.86 equity=10958.90
+2026-02-01 10:28:57 | INFO | fxbot | CLOSE trade_id=63 pair=USD/JPY side=SHORT reason=TIME exit=155.71306 pnl=3.36 equity=10962.27
+2026-02-01 10:28:58 | INFO | fxbot | New day rollover 2026-01-25 -> 2026-01-26 (reset daily limits)
+2026-02-01 10:28:58 | INFO | fxbot | OPEN trade_id=64 pair=USD/JPY side=SHORT p_up=0.400 entry=155.72810 sl=155.80021 tp=155.64157 units=3040.59 equity=10962.27
+2026-02-01 10:28:58 | INFO | fxbot | CLOSE trade_id=64 pair=USD/JPY side=SHORT reason=SL exit=155.80021 pnl=-219.25 equity=10743.02
+2026-02-01 10:28:58 | INFO | fxbot | OPEN trade_id=65 pair=USD/JPY side=LONG p_up=0.600 entry=155.81501 sl=155.63486 tp=156.03119 units=1192.67 equity=10743.02
+2026-02-01 10:28:58 | INFO | fxbot | CLOSE trade_id=65 pair=USD/JPY side=LONG reason=TP exit=156.03119 pnl=257.83 equity=11000.85
+2026-02-01 10:28:58 | INFO | fxbot | OPEN trade_id=66 pair=USD/JPY side=LONG p_up=0.600 entry=155.81501 sl=155.59543 tp=156.07851 units=1001.97 equity=11000.85
+2026-02-01 10:28:58 | INFO | fxbot | CLOSE trade_id=66 pair=USD/JPY side=LONG reason=SL exit=155.59543 pnl=-220.02 equity=10780.84
+2026-02-01 10:28:58 | INFO | fxbot | OPEN trade_id=67 pair=USD/JPY side=LONG p_up=1.000 entry=155.56230 sl=155.28095 tp=155.89992 units=766.37 equity=10780.84
+2026-02-01 10:28:58 | INFO | fxbot | CLOSE trade_id=67 pair=USD/JPY side=LONG reason=SL exit=155.28095 pnl=-215.62 equity=10565.22
+2026-02-01 10:28:58 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:58 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:58 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:58 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:58 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:58 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:58 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:58 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:28:59 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:29:00 | INFO | fxbot | New day rollover 2026-01-26 -> 2026-01-27 (reset daily limits)
+2026-02-01 10:29:04 | INFO | fxbot | New day rollover 2026-01-27 -> 2026-01-28 (reset daily limits)
+2026-02-01 10:29:05 | INFO | fxbot | OPEN trade_id=68 pair=USD/JPY side=SHORT p_up=0.155 entry=153.24726 sl=153.43908 tp=153.01707 units=1101.57 equity=10565.22
+2026-02-01 10:29:05 | INFO | fxbot | CLOSE trade_id=68 pair=USD/JPY side=SHORT reason=TP exit=153.01707 pnl=253.57 equity=10818.78
+2026-02-01 10:29:05 | INFO | fxbot | OPEN trade_id=69 pair=EUR/USD side=LONG p_up=0.600 entry=1.19513 sl=1.19359 tp=1.19698 units=140340.95 equity=10818.78
+2026-02-01 10:29:05 | INFO | fxbot | CLOSE trade_id=69 pair=EUR/USD side=LONG reason=TIME exit=1.19637 pnl=174.02 equity=10992.81
+2026-02-01 10:29:05 | INFO | fxbot | OPEN trade_id=70 pair=EUR/USD side=LONG p_up=1.000 entry=1.19615 sl=1.19499 tp=1.19754 units=190175.21 equity=10992.81
+2026-02-01 10:29:05 | INFO | fxbot | CLOSE trade_id=70 pair=EUR/USD side=LONG reason=TP exit=1.19754 pnl=263.83 equity=11256.63
+2026-02-01 10:29:06 | INFO | fxbot | OPEN trade_id=71 pair=USD/JPY side=SHORT p_up=0.231 entry=152.72709 sl=152.87181 tp=152.55343 units=1555.69 equity=11256.63
+2026-02-01 10:29:06 | INFO | fxbot | CLOSE trade_id=71 pair=USD/JPY side=SHORT reason=TP exit=152.55343 pnl=270.16 equity=11526.79
+2026-02-01 10:29:06 | INFO | fxbot | OPEN trade_id=72 pair=USD/JPY side=SHORT p_up=0.231 entry=152.35824 sl=152.50384 tp=152.18353 units=1583.40 equity=11526.79
+2026-02-01 10:29:06 | INFO | fxbot | CLOSE trade_id=72 pair=USD/JPY side=SHORT reason=TIME exit=152.40780 pnl=-78.47 equity=11448.32
+2026-02-01 10:29:06 | INFO | fxbot | OPEN trade_id=73 pair=USD/JPY side=SHORT p_up=0.231 entry=152.56876 sl=152.68984 tp=152.42347 units=1891.07 equity=11448.32
+2026-02-01 10:29:06 | INFO | fxbot | CLOSE trade_id=73 pair=USD/JPY side=SHORT reason=TP exit=152.42347 pnl=274.76 equity=11723.08
+2026-02-01 10:29:08 | INFO | fxbot | OPEN trade_id=74 pair=USD/JPY side=SHORT p_up=0.231 entry=152.47834 sl=152.65365 tp=152.26797 units=1337.43 equity=11723.08
+2026-02-01 10:29:08 | INFO | fxbot | OPEN trade_id=75 pair=USD/JPY side=SHORT p_up=0.231 entry=152.47834 sl=152.64660 tp=152.27642 units=1393.42 equity=11723.08
+2026-02-01 10:29:08 | INFO | fxbot | CLOSE trade_id=74 pair=USD/JPY side=SHORT reason=SL exit=152.65365 pnl=-234.46 equity=11488.62
+2026-02-01 10:29:08 | INFO | fxbot | CLOSE trade_id=75 pair=USD/JPY side=SHORT reason=SL exit=152.64660 pnl=-234.46 equity=11254.16
+2026-02-01 10:29:08 | INFO | fxbot | OPEN trade_id=76 pair=USD/JPY side=SHORT p_up=0.186 entry=152.68649 sl=152.87367 tp=152.46187 units=1202.48 equity=11254.16
+2026-02-01 10:29:08 | INFO | fxbot | CLOSE trade_id=76 pair=USD/JPY side=SHORT reason=TIME exit=152.56091 pnl=151.01 equity=11405.16
+2026-02-01 10:29:08 | INFO | fxbot | OPEN trade_id=77 pair=EUR/USD side=SHORT p_up=0.161 entry=1.19952 sl=1.20118 tp=1.19752 units=137175.52 equity=11405.16
+2026-02-01 10:29:08 | INFO | fxbot | OPEN trade_id=78 pair=EUR/USD side=SHORT p_up=0.000 entry=1.19999 sl=1.20142 tp=1.19827 units=159353.59 equity=11405.16
+2026-02-01 10:29:08 | INFO | fxbot | OPEN trade_id=79 pair=USD/JPY side=SHORT p_up=0.231 entry=152.55595 sl=152.75755 tp=152.31402 units=1131.44 equity=11405.16
+2026-02-01 10:29:08 | INFO | fxbot | OPEN trade_id=80 pair=USD/JPY side=SHORT p_up=0.190 entry=152.57128 sl=152.77441 tp=152.32753 units=1122.97 equity=11405.16
+2026-02-01 10:29:08 | INFO | fxbot | CLOSE trade_id=77 pair=EUR/USD side=SHORT reason=TIME exit=1.19942 pnl=13.72 equity=11418.88
+2026-02-01 10:29:08 | INFO | fxbot | OPEN trade_id=81 pair=USD/JPY side=SHORT p_up=0.231 entry=152.57128 sl=152.76785 tp=152.33540 units=1161.83 equity=11418.88
+2026-02-01 10:29:08 | INFO | fxbot | CLOSE trade_id=78 pair=EUR/USD side=SHORT reason=TP exit=1.19827 pnl=273.72 equity=11692.61
+2026-02-01 10:29:08 | INFO | fxbot | CLOSE trade_id=79 pair=USD/JPY side=SHORT reason=SL exit=152.75755 pnl=-228.10 equity=11464.50
+2026-02-01 10:29:08 | INFO | fxbot | CLOSE trade_id=80 pair=USD/JPY side=SHORT reason=SL exit=152.77441 pnl=-228.10 equity=11236.40
+2026-02-01 10:29:08 | INFO | fxbot | CLOSE trade_id=81 pair=USD/JPY side=SHORT reason=SL exit=152.76785 pnl=-228.38 equity=11008.02
+2026-02-01 10:29:09 | INFO | fxbot | New day rollover 2026-01-28 -> 2026-01-29 (reset daily limits)
+2026-02-01 10:29:09 | INFO | fxbot | OPEN trade_id=82 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19560 sl=1.19787 tp=1.19288 units=97017.50 equity=11008.02
+2026-02-01 10:29:09 | INFO | fxbot | OPEN trade_id=83 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19560 sl=1.19790 tp=1.19283 units=95529.09 equity=11008.02
+2026-02-01 10:29:09 | INFO | fxbot | OPEN trade_id=84 pair=USD/JPY side=LONG p_up=0.600 entry=153.31516 sl=152.92879 tp=153.77880 units=569.82 equity=11008.02
+2026-02-01 10:29:09 | INFO | fxbot | CLOSE trade_id=82 pair=EUR/USD side=SHORT reason=TIME exit=1.19401 pnl=154.26 equity=11162.28
+2026-02-01 10:29:09 | INFO | fxbot | CLOSE trade_id=83 pair=EUR/USD side=SHORT reason=TIME exit=1.19401 pnl=151.89 equity=11314.17
+2026-02-01 10:29:09 | INFO | fxbot | CLOSE trade_id=84 pair=USD/JPY side=LONG reason=TIME exit=153.64264 pnl=186.61 equity=11500.78
+2026-02-01 10:29:10 | INFO | fxbot | OPEN trade_id=85 pair=USD/JPY side=LONG p_up=0.600 entry=153.49186 sl=153.25384 tp=153.77749 units=966.35 equity=11500.78
+2026-02-01 10:29:10 | INFO | fxbot | OPEN trade_id=86 pair=EUR/USD side=SHORT p_up=0.219 entry=1.19407 sl=1.19587 tp=1.19190 units=127482.87 equity=11500.78
+2026-02-01 10:29:10 | INFO | fxbot | OPEN trade_id=87 pair=USD/JPY side=LONG p_up=1.000 entry=153.49186 sl=153.23528 tp=153.79975 units=896.48 equity=11500.78
+2026-02-01 10:29:10 | INFO | fxbot | CLOSE trade_id=85 pair=USD/JPY side=LONG reason=TIME exit=153.41623 pnl=-73.09 equity=11427.69
+2026-02-01 10:29:10 | INFO | fxbot | CLOSE trade_id=86 pair=EUR/USD side=SHORT reason=TIME exit=1.19439 pnl=-40.79 equity=11386.90
+2026-02-01 10:29:10 | INFO | fxbot | CLOSE trade_id=87 pair=USD/JPY side=LONG reason=TIME exit=153.41623 pnl=-67.80 equity=11319.10
+2026-02-01 10:29:10 | INFO | fxbot | OPEN trade_id=88 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19482 sl=1.19663 tp=1.19265 units=125097.56 equity=11319.10
+2026-02-01 10:29:10 | INFO | fxbot | CLOSE trade_id=88 pair=EUR/USD side=SHORT reason=TIME exit=1.19502 pnl=-25.02 equity=11294.08
+2026-02-01 10:29:12 | INFO | fxbot | OPEN trade_id=89 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19801 sl=1.19893 tp=1.19690 units=244573.96 equity=11294.08
+2026-02-01 10:29:12 | INFO | fxbot | CLOSE trade_id=89 pair=EUR/USD side=SHORT reason=TP exit=1.19690 pnl=271.06 equity=11565.13
+2026-02-01 10:29:13 | INFO | fxbot | New day rollover 2026-01-29 -> 2026-01-30 (reset daily limits)
+2026-02-01 10:29:14 | INFO | fxbot | OPEN trade_id=90 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19575 sl=1.19716 tp=1.19406 units=163795.52 equity=11565.13
+2026-02-01 10:29:14 | INFO | fxbot | CLOSE trade_id=90 pair=EUR/USD side=SHORT reason=TIME exit=1.19549 pnl=42.59 equity=11607.72
+2026-02-01 10:29:16 | INFO | fxbot | OPEN trade_id=91 pair=EUR/USD side=SHORT p_up=0.165 entry=1.19325 sl=1.19437 tp=1.19191 units=207148.62 equity=11607.72
+2026-02-01 10:29:16 | INFO | fxbot | CLOSE trade_id=91 pair=EUR/USD side=SHORT reason=TP exit=1.19191 pnl=278.59 equity=11886.31
+2026-02-01 10:29:16 | INFO | fxbot | OPEN trade_id=92 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19140 sl=1.19261 tp=1.18994 units=196005.05 equity=11886.31
+2026-02-01 10:29:17 | INFO | fxbot | CLOSE trade_id=92 pair=EUR/USD side=SHORT reason=TIME exit=1.19169 pnl=-56.84 equity=11829.46
+2026-02-01 10:29:17 | INFO | fxbot | New day rollover 2026-01-30 -> 2026-01-31 (reset daily limits)
+2026-02-01 10:29:17 | INFO | fxbot | OPEN trade_id=93 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19210 sl=1.19346 tp=1.19047 units=174558.64 equity=11829.46
+2026-02-01 10:29:17 | INFO | fxbot | OPEN trade_id=94 pair=EUR/USD side=SHORT p_up=0.067 entry=1.19210 sl=1.19342 tp=1.19051 units=178943.82 equity=11829.46
+2026-02-01 10:29:17 | INFO | fxbot | CLOSE trade_id=93 pair=EUR/USD side=SHORT reason=TP exit=1.19047 pnl=283.91 equity=12113.37
+2026-02-01 10:29:17 | INFO | fxbot | CLOSE trade_id=94 pair=EUR/USD side=SHORT reason=TP exit=1.19051 pnl=283.91 equity=12397.28
+2026-02-01 10:29:18 | INFO | fxbot | OPEN trade_id=95 pair=USD/JPY side=LONG p_up=0.600 entry=154.23182 sl=154.00464 tp=154.50443 units=1091.43 equity=12397.28
+2026-02-01 10:29:18 | INFO | fxbot | CLOSE trade_id=95 pair=USD/JPY side=LONG reason=TIME exit=154.34659 pnl=125.26 equity=12522.54
+2026-02-01 10:29:21 | INFO | fxbot | New day rollover 2026-01-31 -> 2026-02-01 (reset daily limits)
+2026-02-01 10:29:21 | INFO | fxbot | OPEN trade_id=96 pair=USD/JPY side=SHORT p_up=0.400 entry=154.77448 sl=154.79174 tp=154.75377 units=14509.88 equity=12522.54
+2026-02-01 10:29:21 | INFO | fxbot | CLOSE trade_id=96 pair=USD/JPY side=SHORT reason=TP exit=154.75377 pnl=300.54 equity=12823.08
+2026-02-01 10:29:22 | INFO | fxbot | OPEN trade_id=97 pair=USD/JPY side=SHORT p_up=0.231 entry=154.75344 sl=154.77135 tp=154.73194 units=14316.90 equity=12823.08
+2026-02-01 10:29:22 | INFO | fxbot | OPEN trade_id=98 pair=USD/JPY side=SHORT p_up=0.400 entry=154.75344 sl=154.77145 tp=154.73183 units=14242.78 equity=12823.08
+2026-02-01 10:29:22 | INFO | fxbot | CLOSE trade_id=97 pair=USD/JPY side=SHORT reason=TIME exit=154.73456 pnl=270.30 equity=13093.39
+2026-02-01 10:29:22 | INFO | fxbot | CLOSE trade_id=98 pair=USD/JPY side=SHORT reason=TIME exit=154.73456 pnl=268.90 equity=13362.29
+2026-02-01 10:29:22 | INFO | fxbot | OPEN trade_id=99 pair=EUR/USD side=SHORT p_up=0.231 entry=1.18547 sl=1.18558 tp=1.18534 units=2494294.17 equity=13362.29
+2026-02-01 10:29:23 | INFO | fxbot | CLOSE trade_id=99 pair=EUR/USD side=SHORT reason=TIME exit=1.18546 pnl=24.94 equity=13387.23
+2026-02-01 10:29:24 | INFO | fxbot | Replay done. equity=13387.23 opened=57 closed=57 open_now=0 halted=False
+2026-02-01 10:40:20 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 10:40:20 | INFO | fxbot | Cleared trades/signals from cutoff=2026-01-25 09:40:20
+2026-02-01 10:40:21 | INFO | fxbot | Replay set EUR/USD rows=2068 from=2026-01-25 09:40:20
+2026-02-01 10:40:21 | INFO | fxbot | Replay set USD/JPY rows=2068 from=2026-01-25 09:40:20
+2026-02-01 10:40:21 | INFO | fxbot | Starting replay (model=model/artifacts/gb_model_upto_lastweek.joblib, days=7, total_bars=2068, pairs=['EUR/USD', 'USD/JPY'])
+2026-02-01 10:40:21 | INFO | fxbot | Initialized replay day=2026-01-25 equity=10000.00
+2026-02-01 10:40:21 | INFO | fxbot | OPEN trade_id=100 pair=USD/JPY side=LONG p_up=0.600 entry=156.08585 sl=155.87174 tp=156.34278 units=934.11 equity=10000.00
+2026-02-01 10:40:21 | INFO | fxbot | OPEN trade_id=101 pair=USD/JPY side=LONG p_up=0.600 entry=156.01340 sl=155.81069 tp=156.25665 units=986.63 equity=10000.00
+2026-02-01 10:40:21 | INFO | fxbot | CLOSE trade_id=100 pair=USD/JPY side=LONG reason=TIME exit=156.01606 pnl=-65.19 equity=9934.81
+2026-02-01 10:40:22 | INFO | fxbot | CLOSE trade_id=101 pair=USD/JPY side=LONG reason=TIME exit=155.95508 pnl=-57.54 equity=9877.27
+2026-02-01 10:40:22 | INFO | fxbot | OPEN trade_id=102 pair=USD/JPY side=SHORT p_up=0.231 entry=155.79709 sl=155.84944 tp=155.73427 units=3773.78 equity=9877.27
+2026-02-01 10:40:22 | INFO | fxbot | CLOSE trade_id=102 pair=USD/JPY side=SHORT reason=TIME exit=155.77771 pnl=73.14 equity=9950.40
+2026-02-01 10:40:22 | INFO | fxbot | OPEN trade_id=103 pair=USD/JPY side=SHORT p_up=0.231 entry=155.73361 sl=155.75020 tp=155.71370 units=11994.89 equity=9950.40
+2026-02-01 10:40:22 | INFO | fxbot | OPEN trade_id=104 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72825 sl=155.74290 tp=155.71067 units=13585.49 equity=9950.40
+2026-02-01 10:40:22 | INFO | fxbot | CLOSE trade_id=103 pair=USD/JPY side=SHORT reason=TIME exit=155.72593 pnl=92.12 equity=10042.53
+2026-02-01 10:40:22 | INFO | fxbot | OPEN trade_id=105 pair=USD/JPY side=SHORT p_up=0.411 entry=155.72498 sl=155.73870 tp=155.70851 units=14637.34 equity=10042.53
+2026-02-01 10:40:22 | INFO | fxbot | OPEN trade_id=106 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72752 sl=155.74086 tp=155.71152 units=15059.49 equity=10042.53
+2026-02-01 10:40:22 | INFO | fxbot | CLOSE trade_id=104 pair=USD/JPY side=SHORT reason=TIME exit=155.72554 pnl=36.82 equity=10079.34
+2026-02-01 10:40:22 | INFO | fxbot | OPEN trade_id=107 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72752 sl=155.74053 tp=155.71191 units=15498.16 equity=10079.34
+2026-02-01 10:40:22 | INFO | fxbot | CLOSE trade_id=105 pair=USD/JPY side=SHORT reason=TIME exit=155.72394 pnl=15.22 equity=10094.56
+2026-02-01 10:40:22 | INFO | fxbot | CLOSE trade_id=106 pair=USD/JPY side=SHORT reason=TIME exit=155.72117 pnl=95.63 equity=10190.19
+2026-02-01 10:40:22 | INFO | fxbot | CLOSE trade_id=107 pair=USD/JPY side=SHORT reason=TIME exit=155.72117 pnl=98.41 equity=10288.61
+2026-02-01 10:40:22 | INFO | fxbot | OPEN trade_id=108 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72112 sl=155.73456 tp=155.70500 units=15315.31 equity=10288.61
+2026-02-01 10:40:22 | INFO | fxbot | OPEN trade_id=109 pair=USD/JPY side=SHORT p_up=0.016 entry=155.72292 sl=155.73621 tp=155.70697 units=15480.73 equity=10288.61
+2026-02-01 10:40:22 | INFO | fxbot | OPEN trade_id=110 pair=USD/JPY side=SHORT p_up=0.000 entry=155.72292 sl=155.73591 tp=155.70733 units=15840.81 equity=10288.61
+2026-02-01 10:40:22 | INFO | fxbot | CLOSE trade_id=108 pair=USD/JPY side=SHORT reason=TIME exit=155.72192 pnl=-12.25 equity=10276.35
+2026-02-01 10:40:22 | INFO | fxbot | CLOSE trade_id=109 pair=USD/JPY side=SHORT reason=TIME exit=155.71942 pnl=54.18 equity=10330.54
+2026-02-01 10:40:22 | INFO | fxbot | CLOSE trade_id=110 pair=USD/JPY side=SHORT reason=TIME exit=155.71942 pnl=55.44 equity=10385.98
+2026-02-01 10:40:23 | INFO | fxbot | OPEN trade_id=111 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72213 sl=155.73465 tp=155.70710 units=16588.65 equity=10385.98
+2026-02-01 10:40:23 | INFO | fxbot | OPEN trade_id=112 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72213 sl=155.73425 tp=155.70759 units=17140.09 equity=10385.98
+2026-02-01 10:40:23 | INFO | fxbot | CLOSE trade_id=111 pair=USD/JPY side=SHORT reason=TIME exit=155.71794 pnl=69.51 equity=10455.49
+2026-02-01 10:40:23 | INFO | fxbot | CLOSE trade_id=112 pair=USD/JPY side=SHORT reason=TIME exit=155.71794 pnl=71.82 equity=10527.30
+2026-02-01 10:40:23 | INFO | fxbot | OPEN trade_id=113 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72033 sl=155.73226 tp=155.70602 units=17655.85 equity=10527.30
+2026-02-01 10:40:23 | INFO | fxbot | OPEN trade_id=114 pair=USD/JPY side=SHORT p_up=0.134 entry=155.72073 sl=155.73289 tp=155.70614 units=17315.15 equity=10527.30
+2026-02-01 10:40:23 | INFO | fxbot | CLOSE trade_id=113 pair=USD/JPY side=SHORT reason=TP exit=155.70602 pnl=252.66 equity=10779.96
+2026-02-01 10:40:23 | INFO | fxbot | CLOSE trade_id=114 pair=USD/JPY side=SHORT reason=TP exit=155.70614 pnl=252.66 equity=11032.61
+2026-02-01 10:40:23 | INFO | fxbot | OPEN trade_id=115 pair=USD/JPY side=SHORT p_up=0.231 entry=155.71134 sl=155.72424 tp=155.69586 units=17101.99 equity=11032.61
+2026-02-01 10:40:23 | INFO | fxbot | OPEN trade_id=116 pair=USD/JPY side=SHORT p_up=0.231 entry=155.71284 sl=155.72474 tp=155.69855 units=18534.98 equity=11032.61
+2026-02-01 10:40:23 | INFO | fxbot | CLOSE trade_id=115 pair=USD/JPY side=SHORT reason=TIME exit=155.71124 pnl=1.71 equity=11034.32
+2026-02-01 10:40:23 | INFO | fxbot | OPEN trade_id=117 pair=USD/JPY side=SHORT p_up=0.400 entry=155.71028 sl=155.72245 tp=155.69567 units=18126.73 equity=11034.32
+2026-02-01 10:40:23 | INFO | fxbot | CLOSE trade_id=116 pair=USD/JPY side=SHORT reason=TIME exit=155.71028 pnl=47.45 equity=11081.77
+2026-02-01 10:40:23 | INFO | fxbot | OPEN trade_id=118 pair=USD/JPY side=SHORT p_up=0.231 entry=155.71275 sl=155.72517 tp=155.69784 units=17840.43 equity=11081.77
+2026-02-01 10:40:23 | INFO | fxbot | OPEN trade_id=119 pair=USD/JPY side=SHORT p_up=0.231 entry=155.71275 sl=155.72498 tp=155.69807 units=18116.99 equity=11081.77
+2026-02-01 10:40:23 | INFO | fxbot | CLOSE trade_id=117 pair=USD/JPY side=SHORT reason=TIME exit=155.71565 pnl=-97.34 equity=10984.43
+2026-02-01 10:40:23 | INFO | fxbot | OPEN trade_id=120 pair=USD/JPY side=SHORT p_up=0.404 entry=155.71325 sl=155.72566 tp=155.69835 units=17698.98 equity=10984.43
+2026-02-01 10:40:23 | INFO | fxbot | CLOSE trade_id=118 pair=USD/JPY side=SHORT reason=TIME exit=155.71346 pnl=-12.67 equity=10971.77
+2026-02-01 10:40:23 | INFO | fxbot | CLOSE trade_id=119 pair=USD/JPY side=SHORT reason=TIME exit=155.71346 pnl=-12.86 equity=10958.90
+2026-02-01 10:40:23 | INFO | fxbot | CLOSE trade_id=120 pair=USD/JPY side=SHORT reason=TIME exit=155.71306 pnl=3.36 equity=10962.27
+2026-02-01 10:40:24 | INFO | fxbot | New day rollover 2026-01-25 -> 2026-01-26 (reset daily limits)
+2026-02-01 10:40:24 | INFO | fxbot | OPEN trade_id=121 pair=USD/JPY side=SHORT p_up=0.400 entry=155.72810 sl=155.80021 tp=155.64157 units=3040.59 equity=10962.27
+2026-02-01 10:40:24 | INFO | fxbot | CLOSE trade_id=121 pair=USD/JPY side=SHORT reason=SL exit=155.80021 pnl=-219.25 equity=10743.02
+2026-02-01 10:40:24 | INFO | fxbot | OPEN trade_id=122 pair=USD/JPY side=LONG p_up=0.600 entry=155.81501 sl=155.63486 tp=156.03119 units=1192.67 equity=10743.02
+2026-02-01 10:40:24 | INFO | fxbot | CLOSE trade_id=122 pair=USD/JPY side=LONG reason=TP exit=156.03119 pnl=257.83 equity=11000.85
+2026-02-01 10:40:24 | INFO | fxbot | OPEN trade_id=123 pair=USD/JPY side=LONG p_up=0.600 entry=155.81501 sl=155.59543 tp=156.07851 units=1001.97 equity=11000.85
+2026-02-01 10:40:24 | INFO | fxbot | CLOSE trade_id=123 pair=USD/JPY side=LONG reason=SL exit=155.59543 pnl=-220.02 equity=10780.84
+2026-02-01 10:40:24 | INFO | fxbot | OPEN trade_id=124 pair=USD/JPY side=LONG p_up=1.000 entry=155.56230 sl=155.28095 tp=155.89992 units=766.37 equity=10780.84
+2026-02-01 10:40:24 | INFO | fxbot | CLOSE trade_id=124 pair=USD/JPY side=LONG reason=SL exit=155.28095 pnl=-215.62 equity=10565.22
+2026-02-01 10:40:24 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:24 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:24 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:24 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:24 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:24 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:24 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:24 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:25 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 10:40:26 | INFO | fxbot | New day rollover 2026-01-26 -> 2026-01-27 (reset daily limits)
+2026-02-01 10:40:30 | INFO | fxbot | New day rollover 2026-01-27 -> 2026-01-28 (reset daily limits)
+2026-02-01 10:40:30 | INFO | fxbot | OPEN trade_id=125 pair=USD/JPY side=SHORT p_up=0.155 entry=153.24726 sl=153.43908 tp=153.01707 units=1101.57 equity=10565.22
+2026-02-01 10:40:31 | INFO | fxbot | CLOSE trade_id=125 pair=USD/JPY side=SHORT reason=TP exit=153.01707 pnl=253.57 equity=10818.78
+2026-02-01 10:40:31 | INFO | fxbot | OPEN trade_id=126 pair=EUR/USD side=LONG p_up=0.600 entry=1.19513 sl=1.19359 tp=1.19698 units=140340.95 equity=10818.78
+2026-02-01 10:40:31 | INFO | fxbot | CLOSE trade_id=126 pair=EUR/USD side=LONG reason=TIME exit=1.19637 pnl=174.02 equity=10992.81
+2026-02-01 10:40:31 | INFO | fxbot | OPEN trade_id=127 pair=EUR/USD side=LONG p_up=1.000 entry=1.19615 sl=1.19499 tp=1.19754 units=190175.21 equity=10992.81
+2026-02-01 10:40:31 | INFO | fxbot | CLOSE trade_id=127 pair=EUR/USD side=LONG reason=TP exit=1.19754 pnl=263.83 equity=11256.63
+2026-02-01 10:40:31 | INFO | fxbot | OPEN trade_id=128 pair=USD/JPY side=SHORT p_up=0.231 entry=152.72709 sl=152.87181 tp=152.55343 units=1555.69 equity=11256.63
+2026-02-01 10:40:31 | INFO | fxbot | CLOSE trade_id=128 pair=USD/JPY side=SHORT reason=TP exit=152.55343 pnl=270.16 equity=11526.79
+2026-02-01 10:40:32 | INFO | fxbot | OPEN trade_id=129 pair=USD/JPY side=SHORT p_up=0.231 entry=152.35824 sl=152.50384 tp=152.18353 units=1583.40 equity=11526.79
+2026-02-01 10:40:32 | INFO | fxbot | CLOSE trade_id=129 pair=USD/JPY side=SHORT reason=TIME exit=152.40780 pnl=-78.47 equity=11448.32
+2026-02-01 10:40:32 | INFO | fxbot | OPEN trade_id=130 pair=USD/JPY side=SHORT p_up=0.231 entry=152.56876 sl=152.68984 tp=152.42347 units=1891.07 equity=11448.32
+2026-02-01 10:40:32 | INFO | fxbot | CLOSE trade_id=130 pair=USD/JPY side=SHORT reason=TP exit=152.42347 pnl=274.76 equity=11723.08
+2026-02-01 10:40:33 | INFO | fxbot | OPEN trade_id=131 pair=USD/JPY side=SHORT p_up=0.231 entry=152.47834 sl=152.65365 tp=152.26797 units=1337.43 equity=11723.08
+2026-02-01 10:40:33 | INFO | fxbot | OPEN trade_id=132 pair=USD/JPY side=SHORT p_up=0.231 entry=152.47834 sl=152.64660 tp=152.27642 units=1393.42 equity=11723.08
+2026-02-01 10:40:33 | INFO | fxbot | CLOSE trade_id=131 pair=USD/JPY side=SHORT reason=SL exit=152.65365 pnl=-234.46 equity=11488.62
+2026-02-01 10:40:33 | INFO | fxbot | CLOSE trade_id=132 pair=USD/JPY side=SHORT reason=SL exit=152.64660 pnl=-234.46 equity=11254.16
+2026-02-01 10:40:33 | INFO | fxbot | OPEN trade_id=133 pair=USD/JPY side=SHORT p_up=0.186 entry=152.68649 sl=152.87367 tp=152.46187 units=1202.48 equity=11254.16
+2026-02-01 10:40:33 | INFO | fxbot | CLOSE trade_id=133 pair=USD/JPY side=SHORT reason=TIME exit=152.56091 pnl=151.01 equity=11405.16
+2026-02-01 10:40:33 | INFO | fxbot | OPEN trade_id=134 pair=EUR/USD side=SHORT p_up=0.161 entry=1.19952 sl=1.20118 tp=1.19752 units=137175.52 equity=11405.16
+2026-02-01 10:40:33 | INFO | fxbot | OPEN trade_id=135 pair=EUR/USD side=SHORT p_up=0.000 entry=1.19999 sl=1.20142 tp=1.19827 units=159353.59 equity=11405.16
+2026-02-01 10:40:33 | INFO | fxbot | OPEN trade_id=136 pair=USD/JPY side=SHORT p_up=0.231 entry=152.55595 sl=152.75755 tp=152.31402 units=1131.44 equity=11405.16
+2026-02-01 10:40:34 | INFO | fxbot | OPEN trade_id=137 pair=USD/JPY side=SHORT p_up=0.190 entry=152.57128 sl=152.77441 tp=152.32753 units=1122.97 equity=11405.16
+2026-02-01 10:40:34 | INFO | fxbot | CLOSE trade_id=134 pair=EUR/USD side=SHORT reason=TIME exit=1.19942 pnl=13.72 equity=11418.88
+2026-02-01 10:40:34 | INFO | fxbot | OPEN trade_id=138 pair=USD/JPY side=SHORT p_up=0.231 entry=152.57128 sl=152.76785 tp=152.33540 units=1161.83 equity=11418.88
+2026-02-01 10:40:34 | INFO | fxbot | CLOSE trade_id=135 pair=EUR/USD side=SHORT reason=TP exit=1.19827 pnl=273.72 equity=11692.61
+2026-02-01 10:40:34 | INFO | fxbot | CLOSE trade_id=136 pair=USD/JPY side=SHORT reason=SL exit=152.75755 pnl=-228.10 equity=11464.50
+2026-02-01 10:40:34 | INFO | fxbot | CLOSE trade_id=137 pair=USD/JPY side=SHORT reason=SL exit=152.77441 pnl=-228.10 equity=11236.40
+2026-02-01 10:40:34 | INFO | fxbot | CLOSE trade_id=138 pair=USD/JPY side=SHORT reason=SL exit=152.76785 pnl=-228.38 equity=11008.02
+2026-02-01 10:40:34 | INFO | fxbot | New day rollover 2026-01-28 -> 2026-01-29 (reset daily limits)
+2026-02-01 10:40:35 | INFO | fxbot | OPEN trade_id=139 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19560 sl=1.19787 tp=1.19288 units=97017.50 equity=11008.02
+2026-02-01 10:40:35 | INFO | fxbot | OPEN trade_id=140 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19560 sl=1.19790 tp=1.19283 units=95529.09 equity=11008.02
+2026-02-01 10:40:35 | INFO | fxbot | OPEN trade_id=141 pair=USD/JPY side=LONG p_up=0.600 entry=153.31516 sl=152.92879 tp=153.77880 units=569.82 equity=11008.02
+2026-02-01 10:40:35 | INFO | fxbot | CLOSE trade_id=139 pair=EUR/USD side=SHORT reason=TIME exit=1.19401 pnl=154.26 equity=11162.28
+2026-02-01 10:40:35 | INFO | fxbot | CLOSE trade_id=140 pair=EUR/USD side=SHORT reason=TIME exit=1.19401 pnl=151.89 equity=11314.17
+2026-02-01 10:40:35 | INFO | fxbot | CLOSE trade_id=141 pair=USD/JPY side=LONG reason=TIME exit=153.64264 pnl=186.61 equity=11500.78
+2026-02-01 10:40:35 | INFO | fxbot | OPEN trade_id=142 pair=USD/JPY side=LONG p_up=0.600 entry=153.49186 sl=153.25384 tp=153.77749 units=966.35 equity=11500.78
+2026-02-01 10:40:35 | INFO | fxbot | OPEN trade_id=143 pair=EUR/USD side=SHORT p_up=0.219 entry=1.19407 sl=1.19587 tp=1.19190 units=127482.87 equity=11500.78
+2026-02-01 10:40:35 | INFO | fxbot | OPEN trade_id=144 pair=USD/JPY side=LONG p_up=1.000 entry=153.49186 sl=153.23528 tp=153.79975 units=896.48 equity=11500.78
+2026-02-01 10:40:36 | INFO | fxbot | CLOSE trade_id=142 pair=USD/JPY side=LONG reason=TIME exit=153.41623 pnl=-73.09 equity=11427.69
+2026-02-01 10:40:36 | INFO | fxbot | CLOSE trade_id=143 pair=EUR/USD side=SHORT reason=TIME exit=1.19439 pnl=-40.79 equity=11386.90
+2026-02-01 10:40:36 | INFO | fxbot | CLOSE trade_id=144 pair=USD/JPY side=LONG reason=TIME exit=153.41623 pnl=-67.80 equity=11319.10
+2026-02-01 10:40:36 | INFO | fxbot | OPEN trade_id=145 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19482 sl=1.19663 tp=1.19265 units=125097.56 equity=11319.10
+2026-02-01 10:40:36 | INFO | fxbot | CLOSE trade_id=145 pair=EUR/USD side=SHORT reason=TIME exit=1.19502 pnl=-25.02 equity=11294.08
+2026-02-01 10:40:38 | INFO | fxbot | OPEN trade_id=146 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19801 sl=1.19893 tp=1.19690 units=244573.96 equity=11294.08
+2026-02-01 10:40:38 | INFO | fxbot | CLOSE trade_id=146 pair=EUR/USD side=SHORT reason=TP exit=1.19690 pnl=271.06 equity=11565.13
+2026-02-01 10:40:38 | INFO | fxbot | New day rollover 2026-01-29 -> 2026-01-30 (reset daily limits)
+2026-02-01 10:40:39 | INFO | fxbot | OPEN trade_id=147 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19575 sl=1.19716 tp=1.19406 units=163795.52 equity=11565.13
+2026-02-01 10:40:39 | INFO | fxbot | CLOSE trade_id=147 pair=EUR/USD side=SHORT reason=TIME exit=1.19549 pnl=42.59 equity=11607.72
+2026-02-01 10:40:41 | INFO | fxbot | OPEN trade_id=148 pair=EUR/USD side=SHORT p_up=0.165 entry=1.19325 sl=1.19437 tp=1.19191 units=207148.62 equity=11607.72
+2026-02-01 10:40:42 | INFO | fxbot | CLOSE trade_id=148 pair=EUR/USD side=SHORT reason=TP exit=1.19191 pnl=278.59 equity=11886.31
+2026-02-01 10:40:42 | INFO | fxbot | OPEN trade_id=149 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19140 sl=1.19261 tp=1.18994 units=196005.05 equity=11886.31
+2026-02-01 10:40:42 | INFO | fxbot | CLOSE trade_id=149 pair=EUR/USD side=SHORT reason=TIME exit=1.19169 pnl=-56.84 equity=11829.46
+2026-02-01 10:40:43 | INFO | fxbot | New day rollover 2026-01-30 -> 2026-01-31 (reset daily limits)
+2026-02-01 10:40:43 | INFO | fxbot | OPEN trade_id=150 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19210 sl=1.19346 tp=1.19047 units=174558.64 equity=11829.46
+2026-02-01 10:40:43 | INFO | fxbot | OPEN trade_id=151 pair=EUR/USD side=SHORT p_up=0.067 entry=1.19210 sl=1.19342 tp=1.19051 units=178943.82 equity=11829.46
+2026-02-01 10:40:43 | INFO | fxbot | CLOSE trade_id=150 pair=EUR/USD side=SHORT reason=TP exit=1.19047 pnl=283.91 equity=12113.37
+2026-02-01 10:40:43 | INFO | fxbot | CLOSE trade_id=151 pair=EUR/USD side=SHORT reason=TP exit=1.19051 pnl=283.91 equity=12397.28
+2026-02-01 10:40:43 | INFO | fxbot | OPEN trade_id=152 pair=USD/JPY side=LONG p_up=0.600 entry=154.23182 sl=154.00464 tp=154.50443 units=1091.43 equity=12397.28
+2026-02-01 10:40:43 | INFO | fxbot | CLOSE trade_id=152 pair=USD/JPY side=LONG reason=TIME exit=154.34659 pnl=125.26 equity=12522.54
+2026-02-01 10:40:47 | INFO | fxbot | New day rollover 2026-01-31 -> 2026-02-01 (reset daily limits)
+2026-02-01 10:40:47 | INFO | fxbot | OPEN trade_id=153 pair=USD/JPY side=SHORT p_up=0.400 entry=154.77448 sl=154.79174 tp=154.75377 units=14509.88 equity=12522.54
+2026-02-01 10:40:47 | INFO | fxbot | CLOSE trade_id=153 pair=USD/JPY side=SHORT reason=TP exit=154.75377 pnl=300.54 equity=12823.08
+2026-02-01 10:40:48 | INFO | fxbot | OPEN trade_id=154 pair=USD/JPY side=SHORT p_up=0.231 entry=154.75344 sl=154.77135 tp=154.73194 units=14316.90 equity=12823.08
+2026-02-01 10:40:48 | INFO | fxbot | OPEN trade_id=155 pair=USD/JPY side=SHORT p_up=0.400 entry=154.75344 sl=154.77145 tp=154.73183 units=14242.78 equity=12823.08
+2026-02-01 10:40:48 | INFO | fxbot | CLOSE trade_id=154 pair=USD/JPY side=SHORT reason=TIME exit=154.73456 pnl=270.30 equity=13093.39
+2026-02-01 10:40:48 | INFO | fxbot | CLOSE trade_id=155 pair=USD/JPY side=SHORT reason=TIME exit=154.73456 pnl=268.90 equity=13362.29
+2026-02-01 10:40:48 | INFO | fxbot | OPEN trade_id=156 pair=EUR/USD side=SHORT p_up=0.231 entry=1.18547 sl=1.18558 tp=1.18534 units=2494294.17 equity=13362.29
+2026-02-01 10:40:48 | INFO | fxbot | CLOSE trade_id=156 pair=EUR/USD side=SHORT reason=TIME exit=1.18546 pnl=24.94 equity=13387.23
+2026-02-01 10:40:50 | INFO | fxbot | Replay done. equity=13387.23 opened=57 closed=57 open_now=0 halted=False
+2026-02-01 13:55:09 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 13:55:09 | INFO | fxbot | Cleared trades/signals from cutoff=2026-01-25 12:55:09
+2026-02-01 13:55:10 | INFO | fxbot | Replay set EUR/USD rows=2029 from=2026-01-25 12:55:09
+2026-02-01 13:55:10 | INFO | fxbot | Replay set USD/JPY rows=2029 from=2026-01-25 12:55:09
+2026-02-01 13:55:10 | INFO | fxbot | Starting replay (model=model/artifacts/gb_model_upto_lastweek.joblib, days=7, total_bars=2029, pairs=['EUR/USD', 'USD/JPY'])
+2026-02-01 13:55:10 | INFO | fxbot | Initialized replay day=2026-01-25 equity=10000.00
+2026-02-01 13:55:10 | INFO | fxbot | OPEN trade_id=157 pair=USD/JPY side=SHORT p_up=0.231 entry=155.73361 sl=155.75020 tp=155.71370 units=12054.68 equity=10000.00
+2026-02-01 13:55:10 | INFO | fxbot | OPEN trade_id=158 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72825 sl=155.74290 tp=155.71067 units=13653.21 equity=10000.00
+2026-02-01 13:55:10 | INFO | fxbot | CLOSE trade_id=157 pair=USD/JPY side=SHORT reason=TIME exit=155.72593 pnl=92.58 equity=10092.58
+2026-02-01 13:55:10 | INFO | fxbot | OPEN trade_id=159 pair=USD/JPY side=SHORT p_up=0.411 entry=155.72498 sl=155.73870 tp=155.70851 units=14710.30 equity=10092.58
+2026-02-01 13:55:11 | INFO | fxbot | OPEN trade_id=160 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72752 sl=155.74086 tp=155.71152 units=15134.55 equity=10092.58
+2026-02-01 13:55:11 | INFO | fxbot | CLOSE trade_id=158 pair=USD/JPY side=SHORT reason=TIME exit=155.72554 pnl=37.00 equity=10129.58
+2026-02-01 13:55:11 | INFO | fxbot | OPEN trade_id=161 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72752 sl=155.74053 tp=155.71191 units=15575.41 equity=10129.58
+2026-02-01 13:55:11 | INFO | fxbot | CLOSE trade_id=159 pair=USD/JPY side=SHORT reason=TIME exit=155.72394 pnl=15.30 equity=10144.88
+2026-02-01 13:55:11 | INFO | fxbot | CLOSE trade_id=160 pair=USD/JPY side=SHORT reason=TIME exit=155.72117 pnl=96.10 equity=10240.98
+2026-02-01 13:55:11 | INFO | fxbot | CLOSE trade_id=161 pair=USD/JPY side=SHORT reason=TIME exit=155.72117 pnl=98.90 equity=10339.89
+2026-02-01 13:55:11 | INFO | fxbot | OPEN trade_id=162 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72112 sl=155.73456 tp=155.70500 units=15391.64 equity=10339.89
+2026-02-01 13:55:11 | INFO | fxbot | OPEN trade_id=163 pair=USD/JPY side=SHORT p_up=0.016 entry=155.72292 sl=155.73621 tp=155.70697 units=15557.89 equity=10339.89
+2026-02-01 13:55:11 | INFO | fxbot | OPEN trade_id=164 pair=USD/JPY side=SHORT p_up=0.000 entry=155.72292 sl=155.73591 tp=155.70733 units=15919.76 equity=10339.89
+2026-02-01 13:55:11 | INFO | fxbot | CLOSE trade_id=162 pair=USD/JPY side=SHORT reason=TIME exit=155.72192 pnl=-12.31 equity=10327.57
+2026-02-01 13:55:11 | INFO | fxbot | CLOSE trade_id=163 pair=USD/JPY side=SHORT reason=TIME exit=155.71942 pnl=54.45 equity=10382.03
+2026-02-01 13:55:11 | INFO | fxbot | CLOSE trade_id=164 pair=USD/JPY side=SHORT reason=TIME exit=155.71942 pnl=55.72 equity=10437.75
+2026-02-01 13:55:11 | INFO | fxbot | OPEN trade_id=165 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72213 sl=155.73465 tp=155.70710 units=16671.34 equity=10437.75
+2026-02-01 13:55:11 | INFO | fxbot | OPEN trade_id=166 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72213 sl=155.73425 tp=155.70759 units=17225.53 equity=10437.75
+2026-02-01 13:55:11 | INFO | fxbot | CLOSE trade_id=165 pair=USD/JPY side=SHORT reason=TIME exit=155.71794 pnl=69.85 equity=10507.60
+2026-02-01 13:55:11 | INFO | fxbot | CLOSE trade_id=166 pair=USD/JPY side=SHORT reason=TIME exit=155.71794 pnl=72.17 equity=10579.77
+2026-02-01 13:55:11 | INFO | fxbot | OPEN trade_id=167 pair=USD/JPY side=SHORT p_up=0.231 entry=155.72033 sl=155.73226 tp=155.70602 units=17743.85 equity=10579.77
+2026-02-01 13:55:11 | INFO | fxbot | OPEN trade_id=168 pair=USD/JPY side=SHORT p_up=0.134 entry=155.72073 sl=155.73289 tp=155.70614 units=17401.45 equity=10579.77
+2026-02-01 13:55:11 | INFO | fxbot | CLOSE trade_id=167 pair=USD/JPY side=SHORT reason=TP exit=155.70602 pnl=253.91 equity=10833.69
+2026-02-01 13:55:11 | INFO | fxbot | CLOSE trade_id=168 pair=USD/JPY side=SHORT reason=TP exit=155.70614 pnl=253.91 equity=11087.60
+2026-02-01 13:55:11 | INFO | fxbot | OPEN trade_id=169 pair=USD/JPY side=SHORT p_up=0.231 entry=155.71134 sl=155.72424 tp=155.69586 units=17187.23 equity=11087.60
+2026-02-01 13:55:11 | INFO | fxbot | OPEN trade_id=170 pair=USD/JPY side=SHORT p_up=0.231 entry=155.71284 sl=155.72474 tp=155.69855 units=18627.36 equity=11087.60
+2026-02-01 13:55:11 | INFO | fxbot | CLOSE trade_id=169 pair=USD/JPY side=SHORT reason=TIME exit=155.71124 pnl=1.72 equity=11089.32
+2026-02-01 13:55:11 | INFO | fxbot | OPEN trade_id=171 pair=USD/JPY side=SHORT p_up=0.400 entry=155.71028 sl=155.72245 tp=155.69567 units=18217.08 equity=11089.32
+2026-02-01 13:55:11 | INFO | fxbot | CLOSE trade_id=170 pair=USD/JPY side=SHORT reason=TIME exit=155.71028 pnl=47.69 equity=11137.01
+2026-02-01 13:55:11 | INFO | fxbot | OPEN trade_id=172 pair=USD/JPY side=SHORT p_up=0.231 entry=155.71275 sl=155.72517 tp=155.69784 units=17929.35 equity=11137.01
+2026-02-01 13:55:11 | INFO | fxbot | OPEN trade_id=173 pair=USD/JPY side=SHORT p_up=0.231 entry=155.71275 sl=155.72498 tp=155.69807 units=18207.29 equity=11137.01
+2026-02-01 13:55:11 | INFO | fxbot | CLOSE trade_id=171 pair=USD/JPY side=SHORT reason=TIME exit=155.71565 pnl=-97.83 equity=11039.18
+2026-02-01 13:55:11 | INFO | fxbot | OPEN trade_id=174 pair=USD/JPY side=SHORT p_up=0.404 entry=155.71325 sl=155.72566 tp=155.69835 units=17787.20 equity=11039.18
+2026-02-01 13:55:11 | INFO | fxbot | CLOSE trade_id=172 pair=USD/JPY side=SHORT reason=TIME exit=155.71346 pnl=-12.73 equity=11026.45
+2026-02-01 13:55:12 | INFO | fxbot | CLOSE trade_id=173 pair=USD/JPY side=SHORT reason=TIME exit=155.71346 pnl=-12.93 equity=11013.52
+2026-02-01 13:55:12 | INFO | fxbot | CLOSE trade_id=174 pair=USD/JPY side=SHORT reason=TIME exit=155.71306 pnl=3.38 equity=11016.90
+2026-02-01 13:55:12 | INFO | fxbot | New day rollover 2026-01-25 -> 2026-01-26 (reset daily limits)
+2026-02-01 13:55:12 | INFO | fxbot | OPEN trade_id=175 pair=USD/JPY side=SHORT p_up=0.400 entry=155.72810 sl=155.80021 tp=155.64157 units=3055.75 equity=11016.90
+2026-02-01 13:55:13 | INFO | fxbot | CLOSE trade_id=175 pair=USD/JPY side=SHORT reason=SL exit=155.80021 pnl=-220.34 equity=10796.57
+2026-02-01 13:55:13 | INFO | fxbot | OPEN trade_id=176 pair=USD/JPY side=LONG p_up=0.600 entry=155.81501 sl=155.63486 tp=156.03119 units=1198.62 equity=10796.57
+2026-02-01 13:55:13 | INFO | fxbot | CLOSE trade_id=176 pair=USD/JPY side=LONG reason=TP exit=156.03119 pnl=259.12 equity=11055.68
+2026-02-01 13:55:13 | INFO | fxbot | OPEN trade_id=177 pair=USD/JPY side=LONG p_up=0.600 entry=155.81501 sl=155.59543 tp=156.07851 units=1006.96 equity=11055.68
+2026-02-01 13:55:13 | INFO | fxbot | CLOSE trade_id=177 pair=USD/JPY side=LONG reason=SL exit=155.59543 pnl=-221.11 equity=10834.57
+2026-02-01 13:55:13 | INFO | fxbot | OPEN trade_id=178 pair=USD/JPY side=LONG p_up=1.000 entry=155.56230 sl=155.28095 tp=155.89992 units=770.19 equity=10834.57
+2026-02-01 13:55:13 | INFO | fxbot | CLOSE trade_id=178 pair=USD/JPY side=LONG reason=SL exit=155.28095 pnl=-216.69 equity=10617.88
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:13 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | WARNING | fxbot | Trading halted by daily loss limit (day_dd=-3.62%)
+2026-02-01 13:55:14 | INFO | fxbot | New day rollover 2026-01-26 -> 2026-01-27 (reset daily limits)
+2026-02-01 13:55:18 | INFO | fxbot | New day rollover 2026-01-27 -> 2026-01-28 (reset daily limits)
+2026-02-01 13:55:19 | INFO | fxbot | OPEN trade_id=179 pair=USD/JPY side=SHORT p_up=0.155 entry=153.24726 sl=153.43908 tp=153.01707 units=1107.06 equity=10617.88
+2026-02-01 13:55:19 | INFO | fxbot | CLOSE trade_id=179 pair=USD/JPY side=SHORT reason=TP exit=153.01707 pnl=254.83 equity=10872.71
+2026-02-01 13:55:19 | INFO | fxbot | OPEN trade_id=180 pair=EUR/USD side=LONG p_up=0.600 entry=1.19513 sl=1.19359 tp=1.19698 units=141040.45 equity=10872.71
+2026-02-01 13:55:19 | INFO | fxbot | CLOSE trade_id=180 pair=EUR/USD side=LONG reason=TIME exit=1.19637 pnl=174.89 equity=11047.60
+2026-02-01 13:55:19 | INFO | fxbot | OPEN trade_id=181 pair=EUR/USD side=LONG p_up=1.000 entry=1.19615 sl=1.19499 tp=1.19754 units=191123.10 equity=11047.60
+2026-02-01 13:55:19 | INFO | fxbot | CLOSE trade_id=181 pair=EUR/USD side=LONG reason=TP exit=1.19754 pnl=265.14 equity=11312.74
+2026-02-01 13:55:20 | INFO | fxbot | OPEN trade_id=182 pair=USD/JPY side=SHORT p_up=0.231 entry=152.72709 sl=152.87181 tp=152.55343 units=1563.44 equity=11312.74
+2026-02-01 13:55:20 | INFO | fxbot | CLOSE trade_id=182 pair=USD/JPY side=SHORT reason=TP exit=152.55343 pnl=271.51 equity=11584.25
+2026-02-01 13:55:20 | INFO | fxbot | OPEN trade_id=183 pair=USD/JPY side=SHORT p_up=0.231 entry=152.35824 sl=152.50384 tp=152.18353 units=1591.29 equity=11584.25
+2026-02-01 13:55:20 | INFO | fxbot | CLOSE trade_id=183 pair=USD/JPY side=SHORT reason=TIME exit=152.40780 pnl=-78.86 equity=11505.38
+2026-02-01 13:55:20 | INFO | fxbot | OPEN trade_id=184 pair=USD/JPY side=SHORT p_up=0.231 entry=152.56876 sl=152.68984 tp=152.42347 units=1900.49 equity=11505.38
+2026-02-01 13:55:20 | INFO | fxbot | CLOSE trade_id=184 pair=USD/JPY side=SHORT reason=TP exit=152.42347 pnl=276.13 equity=11781.51
+2026-02-01 13:55:22 | INFO | fxbot | OPEN trade_id=185 pair=USD/JPY side=SHORT p_up=0.231 entry=152.47834 sl=152.65365 tp=152.26797 units=1344.09 equity=11781.51
+2026-02-01 13:55:22 | INFO | fxbot | OPEN trade_id=186 pair=USD/JPY side=SHORT p_up=0.231 entry=152.47834 sl=152.64660 tp=152.27642 units=1400.36 equity=11781.51
+2026-02-01 13:55:22 | INFO | fxbot | CLOSE trade_id=185 pair=USD/JPY side=SHORT reason=SL exit=152.65365 pnl=-235.63 equity=11545.88
+2026-02-01 13:55:22 | INFO | fxbot | CLOSE trade_id=186 pair=USD/JPY side=SHORT reason=SL exit=152.64660 pnl=-235.63 equity=11310.25
+2026-02-01 13:55:22 | INFO | fxbot | OPEN trade_id=187 pair=USD/JPY side=SHORT p_up=0.186 entry=152.68649 sl=152.87367 tp=152.46187 units=1208.48 equity=11310.25
+2026-02-01 13:55:22 | INFO | fxbot | CLOSE trade_id=187 pair=USD/JPY side=SHORT reason=TIME exit=152.56091 pnl=151.76 equity=11462.01
+2026-02-01 13:55:22 | INFO | fxbot | OPEN trade_id=188 pair=EUR/USD side=SHORT p_up=0.161 entry=1.19952 sl=1.20118 tp=1.19752 units=137859.24 equity=11462.01
+2026-02-01 13:55:22 | INFO | fxbot | OPEN trade_id=189 pair=EUR/USD side=SHORT p_up=0.000 entry=1.19999 sl=1.20142 tp=1.19827 units=160147.85 equity=11462.01
+2026-02-01 13:55:22 | INFO | fxbot | OPEN trade_id=190 pair=USD/JPY side=SHORT p_up=0.231 entry=152.55595 sl=152.75755 tp=152.31402 units=1137.08 equity=11462.01
+2026-02-01 13:55:22 | INFO | fxbot | OPEN trade_id=191 pair=USD/JPY side=SHORT p_up=0.190 entry=152.57128 sl=152.77441 tp=152.32753 units=1128.56 equity=11462.01
+2026-02-01 13:55:22 | INFO | fxbot | CLOSE trade_id=188 pair=EUR/USD side=SHORT reason=TIME exit=1.19942 pnl=13.79 equity=11475.80
+2026-02-01 13:55:22 | INFO | fxbot | OPEN trade_id=192 pair=USD/JPY side=SHORT p_up=0.231 entry=152.57128 sl=152.76785 tp=152.33540 units=1167.62 equity=11475.80
+2026-02-01 13:55:22 | INFO | fxbot | CLOSE trade_id=189 pair=EUR/USD side=SHORT reason=TP exit=1.19827 pnl=275.09 equity=11750.88
+2026-02-01 13:55:22 | INFO | fxbot | CLOSE trade_id=190 pair=USD/JPY side=SHORT reason=SL exit=152.75755 pnl=-229.24 equity=11521.64
+2026-02-01 13:55:22 | INFO | fxbot | CLOSE trade_id=191 pair=USD/JPY side=SHORT reason=SL exit=152.77441 pnl=-229.24 equity=11292.40
+2026-02-01 13:55:22 | INFO | fxbot | CLOSE trade_id=192 pair=USD/JPY side=SHORT reason=SL exit=152.76785 pnl=-229.52 equity=11062.89
+2026-02-01 13:55:23 | INFO | fxbot | New day rollover 2026-01-28 -> 2026-01-29 (reset daily limits)
+2026-02-01 13:55:23 | INFO | fxbot | OPEN trade_id=193 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19560 sl=1.19787 tp=1.19288 units=97501.06 equity=11062.89
+2026-02-01 13:55:23 | INFO | fxbot | OPEN trade_id=194 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19560 sl=1.19790 tp=1.19283 units=96005.23 equity=11062.89
+2026-02-01 13:55:23 | INFO | fxbot | OPEN trade_id=195 pair=USD/JPY side=LONG p_up=0.600 entry=153.31516 sl=152.92879 tp=153.77880 units=572.66 equity=11062.89
+2026-02-01 13:55:23 | INFO | fxbot | CLOSE trade_id=193 pair=EUR/USD side=SHORT reason=TIME exit=1.19401 pnl=155.03 equity=11217.92
+2026-02-01 13:55:23 | INFO | fxbot | CLOSE trade_id=194 pair=EUR/USD side=SHORT reason=TIME exit=1.19401 pnl=152.65 equity=11370.56
+2026-02-01 13:55:23 | INFO | fxbot | CLOSE trade_id=195 pair=USD/JPY side=LONG reason=TIME exit=153.64264 pnl=187.54 equity=11558.10
+2026-02-01 13:55:24 | INFO | fxbot | OPEN trade_id=196 pair=USD/JPY side=LONG p_up=0.600 entry=153.49186 sl=153.25384 tp=153.77749 units=971.17 equity=11558.10
+2026-02-01 13:55:24 | INFO | fxbot | OPEN trade_id=197 pair=EUR/USD side=SHORT p_up=0.219 entry=1.19407 sl=1.19587 tp=1.19190 units=128118.28 equity=11558.10
+2026-02-01 13:55:24 | INFO | fxbot | OPEN trade_id=198 pair=USD/JPY side=LONG p_up=1.000 entry=153.49186 sl=153.23528 tp=153.79975 units=900.95 equity=11558.10
+2026-02-01 13:55:24 | INFO | fxbot | CLOSE trade_id=196 pair=USD/JPY side=LONG reason=TIME exit=153.41623 pnl=-73.45 equity=11484.65
+2026-02-01 13:55:24 | INFO | fxbot | CLOSE trade_id=197 pair=EUR/USD side=SHORT reason=TIME exit=1.19439 pnl=-41.00 equity=11443.65
+2026-02-01 13:55:24 | INFO | fxbot | CLOSE trade_id=198 pair=USD/JPY side=LONG reason=TIME exit=153.41623 pnl=-68.14 equity=11375.51
+2026-02-01 13:55:24 | INFO | fxbot | OPEN trade_id=199 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19482 sl=1.19663 tp=1.19265 units=125721.09 equity=11375.51
+2026-02-01 13:55:24 | INFO | fxbot | CLOSE trade_id=199 pair=EUR/USD side=SHORT reason=TIME exit=1.19502 pnl=-25.14 equity=11350.37
+2026-02-01 13:55:26 | INFO | fxbot | OPEN trade_id=200 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19801 sl=1.19893 tp=1.19690 units=245792.99 equity=11350.37
+2026-02-01 13:55:26 | INFO | fxbot | CLOSE trade_id=200 pair=EUR/USD side=SHORT reason=TP exit=1.19690 pnl=272.41 equity=11622.78
+2026-02-01 13:55:27 | INFO | fxbot | New day rollover 2026-01-29 -> 2026-01-30 (reset daily limits)
+2026-02-01 13:55:28 | INFO | fxbot | OPEN trade_id=201 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19575 sl=1.19716 tp=1.19406 units=164611.93 equity=11622.78
+2026-02-01 13:55:28 | INFO | fxbot | CLOSE trade_id=201 pair=EUR/USD side=SHORT reason=TIME exit=1.19549 pnl=42.80 equity=11665.58
+2026-02-01 13:55:31 | INFO | fxbot | OPEN trade_id=202 pair=EUR/USD side=SHORT p_up=0.165 entry=1.19325 sl=1.19437 tp=1.19191 units=208181.11 equity=11665.58
+2026-02-01 13:55:31 | INFO | fxbot | CLOSE trade_id=202 pair=EUR/USD side=SHORT reason=TP exit=1.19191 pnl=279.97 equity=11945.55
+2026-02-01 13:55:32 | INFO | fxbot | OPEN trade_id=203 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19140 sl=1.19261 tp=1.18994 units=196981.99 equity=11945.55
+2026-02-01 13:55:32 | INFO | fxbot | CLOSE trade_id=203 pair=EUR/USD side=SHORT reason=TIME exit=1.19169 pnl=-57.12 equity=11888.43
+2026-02-01 13:55:32 | INFO | fxbot | New day rollover 2026-01-30 -> 2026-01-31 (reset daily limits)
+2026-02-01 13:55:32 | INFO | fxbot | OPEN trade_id=204 pair=EUR/USD side=SHORT p_up=0.231 entry=1.19210 sl=1.19346 tp=1.19047 units=175428.68 equity=11888.43
+2026-02-01 13:55:32 | INFO | fxbot | OPEN trade_id=205 pair=EUR/USD side=SHORT p_up=0.067 entry=1.19210 sl=1.19342 tp=1.19051 units=179835.73 equity=11888.43
+2026-02-01 13:55:32 | INFO | fxbot | CLOSE trade_id=204 pair=EUR/USD side=SHORT reason=TP exit=1.19047 pnl=285.32 equity=12173.75
+2026-02-01 13:55:32 | INFO | fxbot | CLOSE trade_id=205 pair=EUR/USD side=SHORT reason=TP exit=1.19051 pnl=285.32 equity=12459.07
+2026-02-01 13:55:33 | INFO | fxbot | OPEN trade_id=206 pair=USD/JPY side=LONG p_up=0.600 entry=154.23182 sl=154.00464 tp=154.50443 units=1096.87 equity=12459.07
+2026-02-01 13:55:33 | INFO | fxbot | CLOSE trade_id=206 pair=USD/JPY side=LONG reason=TIME exit=154.34659 pnl=125.89 equity=12584.96
+2026-02-01 13:55:37 | INFO | fxbot | New day rollover 2026-01-31 -> 2026-02-01 (reset daily limits)
+2026-02-01 13:55:37 | INFO | fxbot | OPEN trade_id=207 pair=USD/JPY side=SHORT p_up=0.400 entry=154.77448 sl=154.79174 tp=154.75377 units=14582.20 equity=12584.96
+2026-02-01 13:55:37 | INFO | fxbot | CLOSE trade_id=207 pair=USD/JPY side=SHORT reason=TP exit=154.75377 pnl=302.04 equity=12887.00
+2026-02-01 13:55:38 | INFO | fxbot | OPEN trade_id=208 pair=USD/JPY side=SHORT p_up=0.231 entry=154.75344 sl=154.77135 tp=154.73194 units=14388.26 equity=12887.00
+2026-02-01 13:55:38 | INFO | fxbot | OPEN trade_id=209 pair=USD/JPY side=SHORT p_up=0.400 entry=154.75344 sl=154.77145 tp=154.73183 units=14313.77 equity=12887.00
+2026-02-01 13:55:38 | INFO | fxbot | CLOSE trade_id=208 pair=USD/JPY side=SHORT reason=TIME exit=154.73456 pnl=271.65 equity=13158.65
+2026-02-01 13:55:38 | INFO | fxbot | CLOSE trade_id=209 pair=USD/JPY side=SHORT reason=TIME exit=154.73456 pnl=270.24 equity=13428.89
+2026-02-01 13:55:38 | INFO | fxbot | OPEN trade_id=210 pair=EUR/USD side=SHORT p_up=0.231 entry=1.18547 sl=1.18558 tp=1.18534 units=2506726.42 equity=13428.89
+2026-02-01 13:55:38 | INFO | fxbot | CLOSE trade_id=210 pair=EUR/USD side=SHORT reason=TIME exit=1.18546 pnl=25.07 equity=13453.96
+2026-02-01 13:55:40 | INFO | fxbot | Replay done. equity=13453.96 opened=54 closed=54 open_now=0 halted=False
