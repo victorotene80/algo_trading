@@ -1,0 +1,35 @@
+twelvedata:
+  base_url: "https://api.twelvedata.com"
+
+trading:
+  timeframe: 15min
+  pairs: ["EUR/USD", "USD/JPY"]
+  max_open_positions: 5
+
+risk:
+  risk_per_trade: 0.02
+  daily_max_loss: 0.03
+  starting_equity: 10000.0
+  sl_atr_mult: 1.5
+  tp_r_mult: 1.2
+  time_stop_bars: 6
+
+model:
+  horizon_bars: 3
+  min_train_rows: 2000
+  prob_threshold: 0.58
+  cooldown_bars_after_trade: 1
+
+  model_type: "lgbm"          
+  calibrate: true
+  label_threshold: 0.00012    
+  drop_middle: true           
+
+storage:
+  db_path: "paper_trader.sqlite"
+
+backtest:
+  enabled: true
+  lookback_candles: 8000
+  test_days: 7
+  warmup_bars: 250
