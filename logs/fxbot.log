@@ -1303,3 +1303,197 @@
 2026-02-01 13:55:38 | INFO | fxbot | OPEN trade_id=210 pair=EUR/USD side=SHORT p_up=0.231 entry=1.18547 sl=1.18558 tp=1.18534 units=2506726.42 equity=13428.89
 2026-02-01 13:55:38 | INFO | fxbot | CLOSE trade_id=210 pair=EUR/USD side=SHORT reason=TIME exit=1.18546 pnl=25.07 equity=13453.96
 2026-02-01 13:55:40 | INFO | fxbot | Replay done. equity=13453.96 opened=54 closed=54 open_now=0 halted=False
+2026-02-01 16:51:56 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 18:25:09 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 18:26:13 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 18:28:58 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 18:30:26 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-01 18:30:26 | INFO | fxbot | Requested 8000 candles, using API limit 5000
+2026-02-01 18:30:28 | INFO | fxbot | Fetched history pair=EUR/USD rows=5000 latest_ts=2026-02-02 04:15:00
+2026-02-01 18:30:30 | INFO | fxbot | Fetched history pair=USD/JPY rows=5000 latest_ts=2026-02-02 04:15:00
+2026-02-01 18:30:30 | INFO | fxbot | History fetch complete.
+2026-02-01 18:30:45 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 04:58:03 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 04:59:51 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 04:59:57 | INFO | fxbot | Model saved: model/artifacts/gb_model.joblib
+2026-02-02 04:59:57 | INFO | fxbot | Meta: {'model_type': 'lgbm', 'calibrated': True, 'rows': 10016, 'auc': 0.5468929317160254, 'features': ['r1', 'r3', 'r6', 'r12', 'ema_diff', 'ema_trend', 'ema_trend_prev', 'vol20', 'atr14', 'atr_norm', 'vol_z', 'trend_strength', 'pair_id'], 'label_threshold': 0.00012, 'drop_middle': True, 'feature_schema_path': 'model/artifacts/gb_model.features.joblib'}
+2026-02-02 05:00:16 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 05:05:58 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 05:05:58 | INFO | fxbot | Cleared trades/signals from cutoff=2026-01-26 04:05:58
+2026-02-02 05:05:58 | INFO | fxbot | Replay set EUR/USD rows=1904 from=2026-01-26 04:05:58
+2026-02-02 05:05:58 | INFO | fxbot | Replay set USD/JPY rows=1904 from=2026-01-26 04:05:58
+2026-02-02 05:05:58 | INFO | fxbot | Starting replay (model=model/artifacts/gb_model_upto_lastweek.joblib, days=7, total_bars=1904, pairs=['EUR/USD', 'USD/JPY'])
+2026-02-02 05:05:58 | INFO | fxbot | Initialized replay day=2026-01-26 equity=10000.00
+2026-02-02 05:05:59 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 05:06:00 | INFO | fxbot | Replay set EUR/USD rows=1904 from=2026-01-26 04:05:59
+2026-02-02 05:06:00 | INFO | fxbot | Replay set USD/JPY rows=1904 from=2026-01-26 04:05:59
+2026-02-02 05:06:00 | INFO | fxbot | Starting replay (model=model/artifacts/gb_model_upto_lastweek.joblib, days=7, total_bars=1904, pairs=['EUR/USD', 'USD/JPY'])
+2026-02-02 05:06:00 | INFO | fxbot | Initialized replay day=2026-01-26 equity=10000.00
+2026-02-02 05:06:11 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 05:06:11 | INFO | fxbot | Cleared trades/signals from cutoff=2026-01-26 04:06:11
+2026-02-02 05:06:12 | INFO | fxbot | Replay set EUR/USD rows=1904 from=2026-01-26 04:06:11
+2026-02-02 05:06:12 | INFO | fxbot | Replay set USD/JPY rows=1904 from=2026-01-26 04:06:11
+2026-02-02 05:06:12 | INFO | fxbot | Starting replay (model=model/artifacts/gb_model_upto_lastweek.joblib, days=7, total_bars=1904, pairs=['EUR/USD', 'USD/JPY'])
+2026-02-02 05:06:12 | INFO | fxbot | Initialized replay day=2026-01-26 equity=10000.00
+2026-02-02 05:06:12 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 05:06:13 | INFO | fxbot | Replay set EUR/USD rows=1904 from=2026-01-26 04:06:12
+2026-02-02 05:06:13 | INFO | fxbot | Replay set USD/JPY rows=1904 from=2026-01-26 04:06:12
+2026-02-02 05:06:13 | INFO | fxbot | Starting replay (model=model/artifacts/gb_model_upto_lastweek.joblib, days=7, total_bars=1904, pairs=['EUR/USD', 'USD/JPY'])
+2026-02-02 05:06:13 | INFO | fxbot | Initialized replay day=2026-01-26 equity=10000.00
+2026-02-02 05:10:21 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 05:10:21 | INFO | fxbot | Requested 8000 candles, using API limit 5000
+2026-02-02 05:10:23 | INFO | fxbot | Fetched history pair=EUR/USD rows=5000 latest_ts=2026-02-02 15:00:00
+2026-02-02 05:10:24 | INFO | fxbot | Fetched history pair=USD/JPY rows=5000 latest_ts=2026-02-02 15:00:00
+2026-02-02 05:10:24 | INFO | fxbot | History fetch complete.
+2026-02-02 05:10:25 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 05:10:25 | INFO | fxbot | Train set EUR/USD rows=3054 cutoff=2026-01-26T04:10:25.724576
+2026-02-02 05:10:25 | INFO | fxbot | Train set USD/JPY rows=3054 cutoff=2026-01-26T04:10:25.724576
+2026-02-02 05:10:32 | INFO | fxbot | Model saved: model/artifacts/gb_model_upto_lastweek.joblib
+2026-02-02 05:10:32 | INFO | fxbot | Meta: {'model_type': 'lgbm', 'calibrated': True, 'rows': 2988, 'auc': 0.5688292644704882, 'features': ['r1', 'r3', 'r6', 'r12', 'ema_diff', 'ema_trend', 'ema_trend_prev', 'vol20', 'atr14', 'atr_norm', 'vol_z', 'trend_strength', 'pair_id'], 'label_threshold': 0.00012, 'drop_middle': True, 'feature_schema_path': 'model/artifacts/gb_model_upto_lastweek.features.joblib'}
+2026-02-02 05:10:32 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 05:10:33 | INFO | fxbot | Replay set EUR/USD rows=1946 from=2026-01-26 04:10:32
+2026-02-02 05:10:33 | INFO | fxbot | Replay set USD/JPY rows=1946 from=2026-01-26 04:10:32
+2026-02-02 05:10:33 | INFO | fxbot | Starting replay (model=model/artifacts/gb_model_upto_lastweek.joblib, days=7, total_bars=1946, pairs=['EUR/USD', 'USD/JPY'])
+2026-02-02 05:10:33 | INFO | fxbot | Initialized replay day=2026-01-26 equity=10000.00
+2026-02-02 05:10:37 | INFO | fxbot | New day rollover 2026-01-26 -> 2026-01-27 (reset daily limits)
+2026-02-02 05:10:41 | INFO | fxbot | New day rollover 2026-01-27 -> 2026-01-28 (reset daily limits)
+2026-02-02 05:10:46 | INFO | fxbot | New day rollover 2026-01-28 -> 2026-01-29 (reset daily limits)
+2026-02-02 05:10:47 | INFO | fxbot | OPEN trade_id=211 pair=USD/JPY side=LONG p_up=0.600 entry=153.82810 sl=153.70285 tp=153.97840 units=1596.77 equity=10000.00
+2026-02-02 05:10:47 | INFO | fxbot | OPEN trade_id=212 pair=USD/JPY side=LONG p_up=0.600 entry=153.82810 sl=153.70052 tp=153.98120 units=1567.60 equity=10000.00
+2026-02-02 05:10:47 | INFO | fxbot | CLOSE trade_id=211 pair=USD/JPY side=LONG reason=TP exit=153.97840 pnl=240.00 equity=10240.00
+2026-02-02 05:10:47 | INFO | fxbot | CLOSE trade_id=212 pair=USD/JPY side=LONG reason=TP exit=153.98120 pnl=240.00 equity=10480.00
+2026-02-02 05:10:50 | INFO | fxbot | New day rollover 2026-01-29 -> 2026-01-30 (reset daily limits)
+2026-02-02 05:10:55 | INFO | fxbot | New day rollover 2026-01-30 -> 2026-01-31 (reset daily limits)
+2026-02-02 05:10:55 | INFO | fxbot | OPEN trade_id=213 pair=USD/JPY side=LONG p_up=0.600 entry=154.33480 sl=154.21632 tp=154.47697 units=1769.10 equity=10480.00
+2026-02-02 05:10:55 | INFO | fxbot | CLOSE trade_id=213 pair=USD/JPY side=LONG reason=TIME exit=154.36608 pnl=55.34 equity=10535.34
+2026-02-02 05:11:00 | INFO | fxbot | New day rollover 2026-01-31 -> 2026-02-01 (reset daily limits)
+2026-02-02 05:11:03 | INFO | fxbot | New day rollover 2026-02-01 -> 2026-02-02 (reset daily limits)
+2026-02-02 05:11:04 | INFO | fxbot | Replay done. equity=10535.34 opened=3 closed=3 open_now=0 halted=False
+2026-02-02 05:15:55 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 05:15:55 | INFO | fxbot | Cleared trades/signals from cutoff=2026-01-26 04:15:55
+2026-02-02 05:15:56 | INFO | fxbot | Replay set EUR/USD rows=1945 from=2026-01-26 04:15:55
+2026-02-02 05:15:56 | INFO | fxbot | Replay set USD/JPY rows=1945 from=2026-01-26 04:15:55
+2026-02-02 05:15:56 | INFO | fxbot | Starting replay (model=model/artifacts/gb_model_upto_lastweek.joblib, days=7, total_bars=1945, pairs=['EUR/USD', 'USD/JPY'])
+2026-02-02 05:15:56 | INFO | fxbot | Initialized replay day=2026-01-26 equity=10000.00
+2026-02-02 05:16:00 | INFO | fxbot | New day rollover 2026-01-26 -> 2026-01-27 (reset daily limits)
+2026-02-02 05:16:05 | INFO | fxbot | New day rollover 2026-01-27 -> 2026-01-28 (reset daily limits)
+2026-02-02 05:16:09 | INFO | fxbot | New day rollover 2026-01-28 -> 2026-01-29 (reset daily limits)
+2026-02-02 05:16:10 | INFO | fxbot | OPEN trade_id=214 pair=USD/JPY side=LONG p_up=0.600 entry=153.82810 sl=153.70285 tp=153.97840 units=1596.77 equity=10000.00
+2026-02-02 05:16:10 | INFO | fxbot | OPEN trade_id=215 pair=USD/JPY side=LONG p_up=0.600 entry=153.82810 sl=153.70052 tp=153.98120 units=1567.60 equity=10000.00
+2026-02-02 05:16:10 | INFO | fxbot | CLOSE trade_id=214 pair=USD/JPY side=LONG reason=TP exit=153.97840 pnl=240.00 equity=10240.00
+2026-02-02 05:16:10 | INFO | fxbot | CLOSE trade_id=215 pair=USD/JPY side=LONG reason=TP exit=153.98120 pnl=240.00 equity=10480.00
+2026-02-02 05:16:13 | INFO | fxbot | New day rollover 2026-01-29 -> 2026-01-30 (reset daily limits)
+2026-02-02 05:16:18 | INFO | fxbot | New day rollover 2026-01-30 -> 2026-01-31 (reset daily limits)
+2026-02-02 05:16:18 | INFO | fxbot | OPEN trade_id=216 pair=USD/JPY side=LONG p_up=0.600 entry=154.33480 sl=154.21632 tp=154.47697 units=1769.10 equity=10480.00
+2026-02-02 05:16:18 | INFO | fxbot | CLOSE trade_id=216 pair=USD/JPY side=LONG reason=TIME exit=154.36608 pnl=55.34 equity=10535.34
+2026-02-02 05:16:23 | INFO | fxbot | New day rollover 2026-01-31 -> 2026-02-01 (reset daily limits)
+2026-02-02 05:16:26 | INFO | fxbot | New day rollover 2026-02-01 -> 2026-02-02 (reset daily limits)
+2026-02-02 05:16:27 | INFO | fxbot | Replay done. equity=10535.34 opened=3 closed=3 open_now=0 halted=False
+2026-02-02 05:25:12 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 05:27:59 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 05:27:59 | INFO | fxbot | Requested 8000 candles, using API limit 5000
+2026-02-02 05:28:02 | INFO | fxbot | Fetched history pair=EUR/USD rows=5000 latest_ts=2026-02-02 15:15:00
+2026-02-02 05:28:03 | INFO | fxbot | Fetched history pair=USD/JPY rows=5000 latest_ts=2026-02-02 15:15:00
+2026-02-02 05:28:03 | INFO | fxbot | History fetch complete.
+2026-02-02 05:28:04 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 05:28:04 | INFO | fxbot | Train set EUR/USD rows=4284 cutoff=2026-01-26T04:28:04.866839
+2026-02-02 05:28:04 | INFO | fxbot | Train set USD/JPY rows=4284 cutoff=2026-01-26T04:28:04.866839
+2026-02-02 05:28:11 | INFO | fxbot | Model saved: model/artifacts/gb_model_upto_lastweek.joblib
+2026-02-02 05:28:11 | INFO | fxbot | Meta: {'model_type': 'lgbm', 'calibrated': True, 'rows': 6019, 'auc': 0.5296280037989222, 'features': ['r1', 'r3', 'r6', 'r12', 'ema_diff', 'ema_trend', 'ema_trend_prev', 'vol20', 'atr14', 'atr_norm', 'vol_z', 'trend_strength', 'pair_id'], 'label_threshold': 0.00012, 'drop_middle': True, 'feature_schema_path': 'model/artifacts/gb_model_upto_lastweek.features.joblib'}
+2026-02-02 05:28:11 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 05:28:12 | INFO | fxbot | Replay set EUR/USD rows=716 from=2026-01-26 04:28:11
+2026-02-02 05:28:12 | INFO | fxbot | Replay set USD/JPY rows=716 from=2026-01-26 04:28:11
+2026-02-02 05:28:12 | INFO | fxbot | Starting replay (model=model/artifacts/gb_model_upto_lastweek.joblib, days=7, total_bars=716, pairs=['EUR/USD', 'USD/JPY'])
+2026-02-02 05:28:12 | INFO | fxbot | Initialized replay day=2026-01-26 equity=10000.00
+2026-02-02 05:28:13 | INFO | fxbot | New day rollover 2026-01-26 -> 2026-01-27 (reset daily limits)
+2026-02-02 05:28:14 | INFO | fxbot | New day rollover 2026-01-27 -> 2026-01-28 (reset daily limits)
+2026-02-02 05:28:15 | INFO | fxbot | New day rollover 2026-01-28 -> 2026-01-29 (reset daily limits)
+2026-02-02 05:28:16 | INFO | fxbot | New day rollover 2026-01-29 -> 2026-01-30 (reset daily limits)
+2026-02-02 05:28:18 | INFO | fxbot | New day rollover 2026-01-30 -> 2026-01-31 (reset daily limits)
+2026-02-02 05:28:19 | INFO | fxbot | New day rollover 2026-01-31 -> 2026-02-01 (reset daily limits)
+2026-02-02 05:28:20 | INFO | fxbot | New day rollover 2026-02-01 -> 2026-02-02 (reset daily limits)
+2026-02-02 05:28:21 | INFO | fxbot | Replay done. equity=10000.00 opened=0 closed=0 open_now=0 halted=False
+2026-02-02 05:51:04 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 05:51:04 | INFO | fxbot | Requested 5000 candles, using API limit 5000
+2026-02-02 05:51:05 | INFO | fxbot | Fetched history pair=EUR/USD rows=5000 latest_ts=2026-02-02 15:45:00
+2026-02-02 05:51:06 | INFO | fxbot | Fetched history pair=USD/JPY rows=5000 latest_ts=2026-02-02 15:45:00
+2026-02-02 05:51:06 | INFO | fxbot | History fetch complete.
+2026-02-02 05:51:08 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 05:51:08 | INFO | fxbot | Train set EUR/USD rows=4284 cutoff=2026-01-26T04:51:08.036134
+2026-02-02 05:51:08 | INFO | fxbot | Train set USD/JPY rows=4284 cutoff=2026-01-26T04:51:08.036134
+2026-02-02 05:51:14 | INFO | fxbot | Model saved: model/artifacts/gb_model_upto_lastweek.joblib
+2026-02-02 05:51:14 | INFO | fxbot | Meta: {'model_type': 'lgbm', 'calibrated': True, 'rows': 6327, 'auc': 0.5332540144272185, 'features': ['r1', 'r3', 'r6', 'r12', 'ema_diff', 'ema_trend', 'ema_trend_prev', 'vol20', 'atr14', 'atr_norm', 'vol_z', 'trend_strength', 'pair_id'], 'label_threshold': 0.0001, 'drop_middle': True, 'feature_schema_path': 'model/artifacts/gb_model_upto_lastweek.features.joblib'}
+2026-02-02 05:51:14 | INFO | fxbot | Bootstrapped app (db=paper_trader.sqlite, pairs=['EUR/USD', 'USD/JPY'], tf=15min)
+2026-02-02 05:51:15 | INFO | fxbot | Replay set EUR/USD rows=716 from=2026-01-26 04:51:14
+2026-02-02 05:51:15 | INFO | fxbot | Replay set USD/JPY rows=716 from=2026-01-26 04:51:14
+2026-02-02 05:51:15 | INFO | fxbot | Starting replay (model=model/artifacts/gb_model_upto_lastweek.joblib, days=7, total_bars=716, pairs=['EUR/USD', 'USD/JPY'])
+2026-02-02 05:51:15 | INFO | fxbot | Initialized replay day=2026-01-26 equity=10000.00
+2026-02-02 05:51:15 | INFO | fxbot | OPEN trade_id=1 pair=EUR/USD side=LONG p_up=0.570 entry=1.18669 sl=1.18417 tp=1.18947 units=19803.66 equity=10000.00
+2026-02-02 05:51:15 | INFO | fxbot | OPEN trade_id=2 pair=EUR/USD side=LONG p_up=0.570 entry=1.18595 sl=1.18341 tp=1.18874 units=19716.64 equity=10000.00
+2026-02-02 05:51:15 | INFO | fxbot | OPEN trade_id=3 pair=EUR/USD side=LONG p_up=0.570 entry=1.18540 sl=1.18281 tp=1.18824 units=19334.35 equity=10000.00
+2026-02-02 05:51:15 | INFO | fxbot | CLOSE trade_id=2 pair=EUR/USD side=LONG reason=TP exit=1.18874 pnl=55.00 equity=10055.00
+2026-02-02 05:51:15 | INFO | fxbot | CLOSE trade_id=3 pair=EUR/USD side=LONG reason=TP exit=1.18824 pnl=55.00 equity=10110.00
+2026-02-02 05:51:15 | INFO | fxbot | CLOSE trade_id=1 pair=EUR/USD side=LONG reason=TP exit=1.18947 pnl=55.00 equity=10165.00
+2026-02-02 05:51:15 | INFO | fxbot | OPEN trade_id=4 pair=EUR/USD side=LONG p_up=0.570 entry=1.18663 sl=1.18406 tp=1.18946 units=19766.93 equity=10165.00
+2026-02-02 05:51:15 | INFO | fxbot | OPEN trade_id=5 pair=EUR/USD side=LONG p_up=0.570 entry=1.18582 sl=1.18422 tp=1.18758 units=31711.83 equity=10165.00
+2026-02-02 05:51:15 | INFO | fxbot | CLOSE trade_id=4 pair=EUR/USD side=LONG reason=TIME exit=1.18755 pnl=18.19 equity=10183.19
+2026-02-02 05:51:15 | INFO | fxbot | CLOSE trade_id=5 pair=EUR/USD side=LONG reason=TP exit=1.18758 pnl=55.91 equity=10239.09
+2026-02-02 05:51:15 | INFO | fxbot | OPEN trade_id=6 pair=EUR/USD side=LONG p_up=0.570 entry=1.18619 sl=1.18514 tp=1.18735 units=48575.84 equity=10239.09
+2026-02-02 05:51:16 | INFO | fxbot | OPEN trade_id=7 pair=EUR/USD side=LONG p_up=0.570 entry=1.18654 sl=1.18572 tp=1.18745 units=62087.36 equity=10239.09
+2026-02-02 05:51:16 | INFO | fxbot | CLOSE trade_id=7 pair=EUR/USD side=LONG reason=SL exit=1.18572 pnl=-51.20 equity=10187.90
+2026-02-02 05:51:16 | INFO | fxbot | CLOSE trade_id=6 pair=EUR/USD side=LONG reason=SL exit=1.18514 pnl=-51.20 equity=10136.70
+2026-02-02 05:51:16 | INFO | fxbot | OPEN trade_id=8 pair=EUR/USD side=LONG p_up=0.570 entry=1.18525 sl=1.18437 tp=1.18622 units=57637.00 equity=10136.70
+2026-02-02 05:51:16 | INFO | fxbot | CLOSE trade_id=8 pair=EUR/USD side=LONG reason=TP exit=1.18622 pnl=55.75 equity=10192.45
+2026-02-02 05:51:16 | INFO | fxbot | New day rollover 2026-01-26 -> 2026-01-27 (reset daily limits)
+2026-02-02 05:51:16 | INFO | fxbot | OPEN trade_id=9 pair=EUR/USD side=LONG p_up=0.570 entry=1.18817 sl=1.18697 tp=1.18949 units=42511.58 equity=10192.45
+2026-02-02 05:51:16 | INFO | fxbot | OPEN trade_id=10 pair=EUR/USD side=LONG p_up=0.570 entry=1.18849 sl=1.18734 tp=1.18975 units=44439.23 equity=10192.45
+2026-02-02 05:51:16 | INFO | fxbot | CLOSE trade_id=9 pair=EUR/USD side=LONG reason=TIME exit=1.18804 pnl=-5.53 equity=10186.93
+2026-02-02 05:51:16 | INFO | fxbot | CLOSE trade_id=10 pair=EUR/USD side=LONG reason=SL exit=1.18734 pnl=-50.96 equity=10135.97
+2026-02-02 05:51:16 | INFO | fxbot | OPEN trade_id=11 pair=EUR/USD side=LONG p_up=0.570 entry=1.18756 sl=1.18672 tp=1.18849 units=60108.23 equity=10135.97
+2026-02-02 05:51:16 | INFO | fxbot | OPEN trade_id=12 pair=EUR/USD side=LONG p_up=0.570 entry=1.18798 sl=1.18719 tp=1.18885 units=63908.99 equity=10135.97
+2026-02-02 05:51:16 | INFO | fxbot | CLOSE trade_id=11 pair=EUR/USD side=LONG reason=TP exit=1.18849 pnl=55.75 equity=10191.71
+2026-02-02 05:51:16 | INFO | fxbot | CLOSE trade_id=12 pair=EUR/USD side=LONG reason=TIME exit=1.18785 pnl=-8.31 equity=10183.40
+2026-02-02 05:51:17 | INFO | fxbot | OPEN trade_id=13 pair=EUR/USD side=LONG p_up=0.570 entry=1.18849 sl=1.18778 tp=1.18927 units=72054.82 equity=10183.40
+2026-02-02 05:51:17 | INFO | fxbot | CLOSE trade_id=13 pair=EUR/USD side=LONG reason=SL exit=1.18778 pnl=-50.92 equity=10132.49
+2026-02-02 05:51:17 | INFO | fxbot | OPEN trade_id=14 pair=EUR/USD side=LONG p_up=0.570 entry=1.18881 sl=1.18777 tp=1.18996 units=48540.52 equity=10132.49
+2026-02-02 05:51:17 | INFO | fxbot | OPEN trade_id=15 pair=EUR/USD side=LONG p_up=0.570 entry=1.18874 sl=1.18774 tp=1.18984 units=50471.37 equity=10132.49
+2026-02-02 05:51:17 | INFO | fxbot | CLOSE trade_id=14 pair=EUR/USD side=LONG reason=TP exit=1.18996 pnl=55.73 equity=10188.22
+2026-02-02 05:51:17 | INFO | fxbot | CLOSE trade_id=15 pair=EUR/USD side=LONG reason=TP exit=1.18984 pnl=55.73 equity=10243.95
+2026-02-02 05:51:17 | INFO | fxbot | New day rollover 2026-01-27 -> 2026-01-28 (reset daily limits)
+2026-02-02 05:51:17 | INFO | fxbot | OPEN trade_id=16 pair=EUR/USD side=LONG p_up=0.570 entry=1.19455 sl=1.19299 tp=1.19626 units=32872.29 equity=10243.95
+2026-02-02 05:51:17 | INFO | fxbot | OPEN trade_id=17 pair=EUR/USD side=LONG p_up=0.570 entry=1.19444 sl=1.19284 tp=1.19620 units=32088.25 equity=10243.95
+2026-02-02 05:51:17 | INFO | fxbot | CLOSE trade_id=16 pair=EUR/USD side=LONG reason=TP exit=1.19626 pnl=56.34 equity=10300.29
+2026-02-02 05:51:17 | INFO | fxbot | CLOSE trade_id=17 pair=EUR/USD side=LONG reason=TP exit=1.19620 pnl=56.34 equity=10356.63
+2026-02-02 05:51:18 | INFO | fxbot | OPEN trade_id=18 pair=EUR/USD side=LONG p_up=0.570 entry=1.19783 sl=1.19631 tp=1.19950 units=34149.70 equity=10356.63
+2026-02-02 05:51:18 | INFO | fxbot | OPEN trade_id=19 pair=EUR/USD side=LONG p_up=0.570 entry=1.19751 sl=1.19615 tp=1.19901 units=37962.19 equity=10356.63
+2026-02-02 05:51:18 | INFO | fxbot | CLOSE trade_id=19 pair=EUR/USD side=LONG reason=TP exit=1.19901 pnl=56.96 equity=10413.59
+2026-02-02 05:51:18 | INFO | fxbot | CLOSE trade_id=18 pair=EUR/USD side=LONG reason=TP exit=1.19950 pnl=56.96 equity=10470.55
+2026-02-02 05:51:18 | INFO | fxbot | OPEN trade_id=20 pair=EUR/USD side=LONG p_up=0.570 entry=1.20412 sl=1.20215 tp=1.20629 units=26581.75 equity=10470.55
+2026-02-02 05:51:18 | INFO | fxbot | OPEN trade_id=21 pair=EUR/USD side=LONG p_up=0.570 entry=1.20371 sl=1.20174 tp=1.20588 units=26531.71 equity=10470.55
+2026-02-02 05:51:18 | INFO | fxbot | CLOSE trade_id=20 pair=EUR/USD side=LONG reason=SL exit=1.20215 pnl=-52.35 equity=10418.20
+2026-02-02 05:51:18 | INFO | fxbot | CLOSE trade_id=21 pair=EUR/USD side=LONG reason=SL exit=1.20174 pnl=-52.35 equity=10365.85
+2026-02-02 05:51:18 | INFO | fxbot | OPEN trade_id=22 pair=EUR/USD side=LONG p_up=0.570 entry=1.20092 sl=1.19984 tp=1.20211 units=48034.50 equity=10365.85
+2026-02-02 05:51:18 | INFO | fxbot | OPEN trade_id=23 pair=EUR/USD side=LONG p_up=0.570 entry=1.20048 sl=1.19944 tp=1.20163 units=49791.34 equity=10365.85
+2026-02-02 05:51:18 | INFO | fxbot | CLOSE trade_id=22 pair=EUR/USD side=LONG reason=SL exit=1.19984 pnl=-51.83 equity=10314.02
+2026-02-02 05:51:18 | INFO | fxbot | CLOSE trade_id=23 pair=EUR/USD side=LONG reason=SL exit=1.19944 pnl=-51.83 equity=10262.19
+2026-02-02 05:51:18 | INFO | fxbot | OPEN trade_id=24 pair=EUR/USD side=LONG p_up=0.570 entry=1.19940 sl=1.19855 tp=1.20033 units=60457.26 equity=10262.19
+2026-02-02 05:51:18 | INFO | fxbot | CLOSE trade_id=24 pair=EUR/USD side=LONG reason=SL exit=1.19855 pnl=-51.31 equity=10210.88
+2026-02-02 05:51:18 | INFO | fxbot | OPEN trade_id=25 pair=EUR/USD side=LONG p_up=0.570 entry=1.19923 sl=1.19782 tp=1.20078 units=36172.13 equity=10210.88
+2026-02-02 05:51:18 | INFO | fxbot | CLOSE trade_id=25 pair=EUR/USD side=LONG reason=SL exit=1.19782 pnl=-51.05 equity=10159.82
+2026-02-02 05:51:19 | INFO | fxbot | New day rollover 2026-01-28 -> 2026-01-29 (reset daily limits)
+2026-02-02 05:51:19 | INFO | fxbot | OPEN trade_id=26 pair=EUR/USD side=LONG p_up=0.570 entry=1.19741 sl=1.19661 tp=1.19829 units=63835.16 equity=10159.82
+2026-02-02 05:51:19 | INFO | fxbot | CLOSE trade_id=26 pair=EUR/USD side=LONG reason=SL exit=1.19661 pnl=-50.80 equity=10109.02
+2026-02-02 05:51:19 | INFO | fxbot | OPEN trade_id=27 pair=EUR/USD side=LONG p_up=0.570 entry=1.19841 sl=1.19759 tp=1.19931 units=61506.44 equity=10109.02
+2026-02-02 05:51:19 | INFO | fxbot | CLOSE trade_id=27 pair=EUR/USD side=LONG reason=TP exit=1.19931 pnl=55.60 equity=10164.62
+2026-02-02 05:51:19 | INFO | fxbot | OPEN trade_id=28 pair=EUR/USD side=LONG p_up=0.570 entry=1.19816 sl=1.19736 tp=1.19904 units=63274.66 equity=10164.62
+2026-02-02 05:51:19 | INFO | fxbot | CLOSE trade_id=28 pair=EUR/USD side=LONG reason=TP exit=1.19904 pnl=55.91 equity=10220.53
+2026-02-02 05:51:19 | INFO | fxbot | OPEN trade_id=29 pair=EUR/USD side=LONG p_up=0.570 entry=1.19746 sl=1.19661 tp=1.19839 units=60476.50 equity=10220.53
+2026-02-02 05:51:19 | INFO | fxbot | CLOSE trade_id=29 pair=EUR/USD side=LONG reason=TP exit=1.19839 pnl=56.21 equity=10276.74
+2026-02-02 05:51:20 | INFO | fxbot | New day rollover 2026-01-29 -> 2026-01-30 (reset daily limits)
+2026-02-02 05:51:20 | INFO | fxbot | OPEN trade_id=30 pair=EUR/USD side=LONG p_up=0.570 entry=1.19680 sl=1.19616 tp=1.19750 units=80197.53 equity=10276.74
+2026-02-02 05:51:20 | INFO | fxbot | CLOSE trade_id=30 pair=EUR/USD side=LONG reason=SL exit=1.19616 pnl=-51.38 equity=10225.36
+2026-02-02 05:51:21 | INFO | fxbot | New day rollover 2026-01-30 -> 2026-01-31 (reset daily limits)
+2026-02-02 05:51:22 | INFO | fxbot | New day rollover 2026-01-31 -> 2026-02-01 (reset daily limits)
+2026-02-02 05:51:23 | INFO | fxbot | New day rollover 2026-02-01 -> 2026-02-02 (reset daily limits)
+2026-02-02 05:51:24 | INFO | fxbot | OPEN trade_id=31 pair=EUR/USD side=LONG p_up=0.570 entry=1.18644 sl=1.18527 tp=1.18773 units=43594.31 equity=10225.36
+2026-02-02 05:51:24 | INFO | fxbot | Replay done. equity=10225.36 opened=31 closed=30 open_now=1 halted=False

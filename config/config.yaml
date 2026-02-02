@@ -4,32 +4,77 @@ twelvedata:
 trading:
   timeframe: 15min
   pairs: ["EUR/USD", "USD/JPY"]
-  max_open_positions: 5
+  max_open_positions: 3
 
 risk:
-  risk_per_trade: 0.02
-  daily_max_loss: 0.03
+  # safer for frequent trading
+  risk_per_trade: 0.005          # 0.5% per trade
+  daily_max_loss: 0.02           # 2% daily max loss
   starting_equity: 10000.0
-  sl_atr_mult: 1.5
-  tp_r_mult: 1.2
-  time_stop_bars: 6
+
+  sl_atr_mult: 1.3               # slightly tighter than before
+  tp_r_mult: 1.1                 # realistic for 15m
+  time_stop_bars: 10             # give trades time (10*15m = 2.5h)
 
 model:
   horizon_bars: 3
   min_train_rows: 2000
-  prob_threshold: 0.58
-  cooldown_bars_after_trade: 1
 
-  model_type: "lgbm"          
+  # A-mode: lower threshold so it actually triggers
+  prob_threshold: 0.52
+
+  model_type: "lgbm"
   calibrate: true
-  label_threshold: 0.00012    
-  drop_middle: true           
+  label_threshold: 0.00010       # slightly easier label
+  drop_middle: true
 
 storage:
   db_path: "paper_trader.sqlite"
 
 backtest:
   enabled: true
-  lookback_candles: 8000
+  lookback_candles: 5000         # TwelveData max is 5000
   test_days: 7
   warmup_bars: 250
+
+filters:
+  regime:
+    enabled: true
+    ema_trend_period: 200
+    ema_signal_period: 50
+    slope_lookback: 8
+    slope_min_atr_frac: 0.00     # IMPORTANT: remove slope gate for A-mode
+    adx_period: 14
+    adx_min_trend: 12            # lower so trends register on 15m
+    allow_range_trades: true     # IMPORTANT: allow ranges (daily trading)
+
+  volatility:
+    enabled: true
+    atr_period: 14
+
+    # IMPORTANT: your old atr_min=0.02 was 10-20x too high for FX
+    atr_min: 0.0004
+    atr_max: 0.0100
+
+    vol_window: 30
+    vol_spike_z: 3.5             # less strict
+    block_on_spike: false        # don't block most entries
+
+guards:
+  counter_trend:
+    enabled: true
+    require_price_above_trend_for_long: false
+    require_price_below_trend_for_short: false
+
+  clustered_entries:
+    enabled: true
+    cooldown_bars_after_trade: 1
+    max_same_side_entries: 2
+    window_bars: 12
+    block_after_losses: 3
+    pause_bars_after_loss_streak: 6
+
+features:
+  ema_fast: 20
+  ema_slow: 50
+  vol_window: 20

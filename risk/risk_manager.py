@@ -1,5 +1,23 @@
+from typing import Optional, Dict
+from risk.entry_cluster_guard import EntryClusterGuard
+
+
 class RiskManager:
-    def __init__(self, starting_equity: float, daily_max_loss: float, risk_per_trade: float):
+    """
+    Expanded Risk Manager with:
+    - daily drawdown halt
+    - risk-per-trade sizing
+    - clustered-entry protection (cooldown, same-side limit, loss streak pause)
+    """
+
+    def __init__(
+        self,
+        starting_equity: float,
+        daily_max_loss: float,
+        risk_per_trade: float,
+        *,
+        cluster_cfg: Optional[Dict] = None,
+    ):
         self.starting_equity = float(starting_equity)
         self.daily_max_loss = float(daily_max_loss)
         self.risk_per_trade = float(risk_per_trade)
@@ -7,6 +25,8 @@ class RiskManager:
         self.start_equity_day = self.starting_equity
         self.equity = self.starting_equity
         self.halted = False
+
+        self.cluster_guard = EntryClusterGuard(cluster_cfg or {"enabled": False})
 
     def reset_day(self):
         self.start_equity_day = self.equity
@@ -30,3 +50,14 @@ class RiskManager:
 
     def risk_amount(self) -> float:
         return self.equity * self.risk_per_trade
+
+    # ---- NEW: clustered entry checks ----
+
+    def can_enter(self, pair: str, side: str, bar_index: int) -> bool:
+        if not self.can_trade():
+            return False
+        decision = self.cluster_guard.can_enter(pair=pair, side=side, bar_index=bar_index)
+        return decision.allow
+
+    def on_trade_closed(self, pair: str, side: str, bar_index: int, pnl: float):
+        self.cluster_guard.on_trade_closed(pair=pair, side=side, bar_index=bar_index, pnl=pnl)
